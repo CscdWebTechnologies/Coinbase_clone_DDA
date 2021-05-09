@@ -50,7 +50,10 @@
 }
 
 svg.chartSvg{
+  display: block;
   fill:none;
+  width: 100px;
+  margin:0px;
 }
 
 path.pathStyle{

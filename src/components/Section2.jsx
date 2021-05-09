@@ -1,7 +1,7 @@
 import React from "react"
-import {Table, Container, Button } from "react-bootstrap"
+import {Table, Container, Button, Row, Col } from "react-bootstrap"
 import bitcoin from "./assets/logo1.png"
-import etheruem from "./assets/logo2.png"
+import ethereum from "./assets/logo2.png"
 import bitcoinCash from "./assets/logo3.png"
 import litecoin from "./assets/logo4.png"
 
@@ -23,7 +23,16 @@ const Section2=()=>{
               <tr className="bitcoin">
                   <td><h4>1</h4></td>
                   <td>
-                      <img src={bitcoin} alt="bitcoin logo" height="36" width="36"/>
+                  <Container>
+                          <Row>
+                              <Col md="2">
+                                <img src={bitcoin} alt="bitcoin logo" height="36" width="36"/>
+                                </Col>
+                            <Col md="10">
+                                <h4>Bitcoin BTC</h4>
+                              </Col>
+                          </Row>
+                      </Container>
                   </td>
                   <td><h4>GHS 333,490.67</h4></td>
                   <td><h4>-2.67</h4></td>
@@ -41,7 +50,16 @@ const Section2=()=>{
               <tr className="ethereum">
                   <td><h4>2</h4></td>
                   <td>
-                      <img src={etheruem} alt="bitcoin logo" height="36" width="36"/>
+                  <Container>
+                          <Row>
+                              <Col md="2">
+                                <img src={ethereum} alt="ethereum" height="36" width="36"/>
+                                </Col>
+                            <Col md="10">
+                                <h4>Ethereum ETH</h4>
+                              </Col>
+                          </Row>
+                      </Container>
                   </td>
                   <td><h4>GHS 333,490.67</h4></td>
                   <td><h4>-2.67</h4></td>
@@ -59,17 +77,26 @@ const Section2=()=>{
                     </svg>
                   </td>
                   <td><Button variant="success" size="md">Buy</Button></td>
-
               </tr>
               <tr className="bitcoinCash">
                   <td><h4>3</h4></td>
                   <td>
-                      <img src={bitcoinCash} alt="bitcoin logo" height="36" width="36"/>
+                      <Container>
+                          <Row>
+                              <Col md="2">
+                                <img src={bitcoinCash} alt="bitcoin logo" height="36" width="36"/>
+                                </Col>
+                            <Col md="10">
+                                <h4>Bitcoin Cash BCH</h4>
+                              </Col>
+                          </Row>
+                      </Container>
+                      
                   </td>
                   <td><h4>GHS 333,490.67</h4></td>
                   <td><h4>-2.67</h4></td>
                   <td>
-                    <svg className="chartSvg">
+                    <svg className="chartSvg"  version="1.1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 32" preserveAspectRatio="none">
                         <path d="M 0,17.9399638226991 C 5.356874603650299e-18,17.85247942136183 -0.19999999999999987,18.023857446369536 0,17.502541816012766 C 0.19999999999999996,16.981226185655995 
                         0.5999999999999999,15.908562966274436 1,15.333385670915245 C 1.4,14.758208375556054 1.8,14.732093628888217 2,14.62665533921681 C 2.2,14.521217049545404
                          1.7999999999999998,14.197720625197523 2,14.806194222558211 C 2.2,15.4146678199189 2.6,17.67685775002061 3,17.669023326020252 C 3.4,17.661188902019894 3.8,15.348728084582582 4,14.767022102556428 C 4.2,14.185316120530274 3.8,14.678558398219131 4,14.760493415889485 C 4.2,14.842428433559839 4.6,15.388879507584402 5,15.176697190908195 C 5.4,14.964514874231988 5.8,13.943101845186067 
@@ -84,7 +111,16 @@ const Section2=()=>{
               <tr className="litecoin">
                   <td><h4>4</h4></td>
                   <td>
-                      <img src={litecoin} alt="bitcoin logo" height="36" width="36"/>
+                  <Container>
+                          <Row>
+                              <Col md="2">
+                                <img src={litecoin} alt="litecoin logo" height="36" width="36"/>
+                                </Col>
+                            <Col md="10">
+                                <h4>Litecoin LTC</h4>
+                              </Col>
+                          </Row>
+                      </Container>
                   </td>
                   <td><h4>GHS 333,490.67</h4></td>
                   <td><h4>-2.67</h4></td>
