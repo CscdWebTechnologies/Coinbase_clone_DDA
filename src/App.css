@@ -1,3 +1,4 @@
+/*Navbar customizations*/
 .navbar.navbar-expand-lg.navbar-light.bg-light-custom{
     background-color: transparent;
     border-bottom: 1px solid rgb(236, 239, 241);
@@ -5,12 +6,29 @@
     padding-top: 10px;
 }
 
+/* Navbar logo*/
 .navbar-brand{
-  padding-right: 200px;
-  padding-left: 100px;
+  padding-left: 4.4rem;
+  padding-right: 7rem;
 }
 
-.pull.nav-link{
 
+/*Removes boostrap default border given to navbar toggle in mobile view*/
+.navbar-light .navbar-toggler{
+  border-color:transparent;
 }
 
+a.pull.nav-link{
+  padding-left: 600px;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+
+@media(max-width: 768px){
+  .navbar-brand{
+    padding-left: 1rem;
+  }
+}

@@ -1,5 +1,5 @@
 import React from "react"
-import{Navbar, NavDropdown, Nav} from "react-bootstrap"
+import{Navbar, NavDropdown, Button, Nav} from "react-bootstrap"
 import logo from "./assets/logo.svg"
 
 const Navigation=()=>{
@@ -47,8 +47,10 @@ const Navigation=()=>{
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-              <Nav.Link className="pull">Item 7</Nav.Link>
-              <Nav.Link className="pull">Item 8</Nav.Link>
+              <Nav.Link className="pull">Sign In</Nav.Link>
+              <Nav.Link className="pull">
+                    <Button variant="success" size="sm" className="ml-5">Get Started</Button>
+              </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
