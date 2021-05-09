@@ -12,16 +12,21 @@
   padding-right: 7rem;
 }
 
+/*Drops down menu on hover*/
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+
+
 
 /*Removes boostrap default border given to navbar toggle in mobile view*/
 .navbar-light .navbar-toggler{
   border-color:transparent;
 }
 
-a.pull.nav-link{
-  padding-left: 600px;
-}
 
+/*Removes bootstrap default arrow from dropdown*/
 .dropdown-toggle::after {
   content: none;
 }
