@@ -14,39 +14,40 @@ const Section4=()=>{
 
         <Container>
             <Row>
-                 <Col md="4">
-                    <Row>
-                        <h1>Hello World</h1>
-                        <p>
-                            minim veniam, quis nostrud exercitation ullamco laboris 
-                            nisi ut aliquip ex ea commodo consequat. 
-                        </p>
-                    </Row>
-                    <Row>
-                        <h1>Hello World</h1>
-                        <p>
-                            minim veniam, quis nostrud exercitation ullamco laboris 
-                            nisi ut aliquip ex ea commodo consequat. 
-                        </p>
-                    </Row>
-                    <Row>
-                        <h1>Hello World</h1>
-                        <p>
-                            minim veniam, quis nostrud exercitation ullamco laboris 
-                            nisi ut aliquip ex ea commodo consequat. 
-                        </p>
-                    </Row>
-                    <Row>
-                        <h1>Hello World</h1>
-                        <p>
-                            minim veniam, quis nostrud exercitation ullamco laboris 
-                            nisi ut aliquip ex ea commodo consequat. 
-                        </p>
-                    </Row>
-                </Col>
-                <Col md="8" xs="10">
+                 <Col md={{span:"8", order:"last"}}  xs="10">
                     <img className="img-fluid" src={dashboard} alt="dashboard"/>
+                 </Col>
+                 <Col md={{span:"4", order:"first"}}>
+                    <Row>
+                        <h1>Hello World</h1>
+                        <p>
+                            minim veniam, quis nostrud exercitation ullamco laboris 
+                            nisi ut aliquip ex ea commodo consequat. 
+                        </p>
+                    </Row>
+                    <Row>
+                        <h1>Hello World</h1>
+                        <p>
+                            minim veniam, quis nostrud exercitation ullamco laboris 
+                            nisi ut aliquip ex ea commodo consequat. 
+                        </p>
+                    </Row>
+                    <Row>
+                        <h1>Hello World</h1>
+                        <p>
+                            minim veniam, quis nostrud exercitation ullamco laboris 
+                            nisi ut aliquip ex ea commodo consequat. 
+                        </p>
+                    </Row>
+                    <Row>
+                        <h1>Hello World</h1>
+                        <p>
+                            minim veniam, quis nostrud exercitation ullamco laboris 
+                            nisi ut aliquip ex ea commodo consequat. 
+                        </p>
+                    </Row>
                 </Col>
+                
                 
             </Row>
         </Container>
