@@ -8,7 +8,7 @@ import litecoin from "./assets/logo4.png"
 const Section2=()=>{
     return (
       <Container>
-        <Table size="md">
+        <Table hover size="md">
           <thead>
             <tr>
               <th>#</th>
@@ -61,8 +61,8 @@ const Section2=()=>{
                           </Row>
                       </Container>
                   </td>
-                  <td><h4>GHS 333,490.67</h4></td>
-                  <td><h4>-2.67</h4></td>
+                  <td><h4>GHS 22,563.03</h4></td>
+                  <td><h4>+4.04</h4></td>
                   <td>
                     <svg className="chartSvg" width="70" height="22.41"  version="1.1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 70 22.41" preserveAspectRatio="none">
                       <path className="pathStyle" d="M 0,11.057564920800306 C 1.1247289521555943e-17,10.87388274354909 -6.838478491953916e-17,9.766884604331631 0,10.139154034544225 C 2.2794928306513055e-17,
@@ -93,7 +93,7 @@ const Section2=()=>{
                       </Container>
                       
                   </td>
-                  <td><h4>GHS 333,490.67</h4></td>
+                  <td><h4>GHs 7711.84</h4></td>
                   <td><h4>-2.67</h4></td>
                   <td>
                     <svg className="chartSvg" width="70" height="22.41"  version="1.1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 70 22.41" preserveAspectRatio="none">
@@ -122,7 +122,7 @@ const Section2=()=>{
                           </Row>
                       </Container>
                   </td>
-                  <td><h4>GHS 333,490.67</h4></td>
+                  <td><h4>GHS 2107.36</h4></td>
                   <td><h4>-2.67</h4></td>
                   <td>
                     <svg className="chartSvg" width="70" height="22.41"  version="1.1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 70 22.41" preserveAspectRatio="none">
