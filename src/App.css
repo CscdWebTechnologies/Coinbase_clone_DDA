@@ -32,6 +32,25 @@
 }
 
 
+/*Section 2 Table*/
+.table{
+    border: 1px solid rgb(236, 239, 241);
+}
+
+/*Table elements styling*/
+
+
+.table>:not(:last-child)>:last-child>*{
+    border-bottom-color: rgb(236, 239, 241);
+}
+
+.table>:not(caption)>*>*{
+  font-weight: 400;
+  font-size: 14px;
+}
+
+
+
 @media(max-width: 768px){
   .navbar-brand{
     padding-left: 1rem;
