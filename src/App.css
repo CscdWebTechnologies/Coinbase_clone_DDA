@@ -69,10 +69,20 @@ path.pathStyle{
   color: #fff;
 }
 
+/*Container for section 7*/
 .containersec7.container{
   margin-top: 6rem;
 }
 
+/*SVG for section1*/
+svg.iphoneMock{
+  height: 600px;
+}
+
+/*Container for section 1*/
+.containersec1.container{
+  margin-top: 4rem;
+}
 
 @media(max-width: 768px){
   .navbar-brand{
