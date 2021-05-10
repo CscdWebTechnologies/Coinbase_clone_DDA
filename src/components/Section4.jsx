@@ -14,7 +14,7 @@ const Section4=()=>{
 
         <Container>
             <Row>
-                 <Col md={{span:"8", order:"last"}}  xs="10">
+                 <Col md={{span:"8", order:"last"}}  xs="12">
                     <img className="img-fluid" src={dashboard} alt="dashboard"/>
                  </Col>
                  <Col md={{span:"4", order:"first"}}>

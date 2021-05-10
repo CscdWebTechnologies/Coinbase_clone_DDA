@@ -19,7 +19,6 @@
 
 
 
-
 /*Removes boostrap default border given to navbar toggle in mobile view*/
 .navbar-light .navbar-toggler{
   border-color:transparent;
@@ -62,8 +61,17 @@ path.pathStyle{
   pointer-events: none;
 }
 
+/*Section 6 background*/
+.custom-background.container-fluid{
+  padding-top: 4rem;
+  padding-bottom: 3.5rem;
+  background-color: rgb(22, 82, 240);
+  color: #fff;
+}
 
-
+.containersec7.container{
+  margin-top: 6rem;
+}
 
 
 @media(max-width: 768px){
