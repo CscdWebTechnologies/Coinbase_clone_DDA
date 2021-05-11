@@ -3,17 +3,17 @@ import { Col, Container, Row, Jumbotron } from "react-bootstrap";
 
 const Section7 = () => {
   return (
-    <Container>
+    <Container className="containerSec7">
       <Row>
-        <Jumbotron>
+        <Jumbotron className="sec7Jumbotron">
           <h1 className="text-center">Get started in a few minutes</h1>
-          <p className="text-center">
+          <p className="text-center custom">
             Coinbase supports a variety of the most popular digital currencies.
           </p>
         </Jumbotron>
       </Row>
-      <Row>
-        <Col md={{ offset: 1, span: 3 }} className="text-center">
+      <Row className="section7">
+        <Col md={{ span: 2 }} className="text-center">
           <svg
             width="64"
             height="60"
@@ -30,6 +30,10 @@ const Section7 = () => {
             <path d="M33 42h-2v12h2V42z" fill="#fff"></path>
             <path d="M38 49v-2H26v2h12z" fill="#fff"></path>
           </svg>
+          <h5 className="colText">Create an account</h5>
+        </Col>
+        <Col md={{ span: 2 }}>
+          <hr />
         </Col>
         <Col md={{ span: 3 }} className="text-center">
           <svg width="65" height="56" viewBox="0 0 65 56" fill="none">
@@ -45,6 +49,10 @@ const Section7 = () => {
               fill="#fff"
             ></path>
           </svg>
+          <h5 className="colText">Link your bank account</h5>
+        </Col>
+        <Col md={{ span: 2 }}>
+          <hr />
         </Col>
         <Col md={{ span: 3 }} className="text-center">
           <svg width="61" height="56" viewBox="0 0 61 56" fill="none">
@@ -68,6 +76,7 @@ const Section7 = () => {
               fill="#fff"
             ></path>
           </svg>
+          <h5 className="colText">Starting buying & selling</h5>
         </Col>
       </Row>
     </Container>
