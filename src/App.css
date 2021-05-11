@@ -204,3 +204,15 @@ svg.bitcoinBlue {
   font-weight: 500;
   color: rgb(15, 50, 86);
 }
+
+.text-center.subtext{
+  line-height: 24px;
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.text-center.header{
+  line-height: 48px;
+  font-size: 56px;
+  font-weight: 500;
+}
