@@ -1,12 +1,14 @@
 import React from "react"
-import { Container, Jumbotron, Row, Col } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 import dashboard from "./assets/dashboard.jpg"
 import JumboHeader from "./JumboHeader"
 
 const Section4=()=>{
     return (
       <Container>
-        <JumboHeader header="Create your cryptocurrency portfolio today" text="Coinbase has a variety of features that make it the best place to start trading"/>
+        <JumboHeader name="Create your cryptocurrency portfolio today" 
+        text="Coinbase has a variety of features that make it the best place to start trading"
+        />
 
         <Container>
           <Row>
