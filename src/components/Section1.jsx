@@ -54,8 +54,16 @@ const Section1=()=>{
                 Coinbase is the easiest place to buy and sell cryptocurrency.
                 Sign up and get started today.
               </p>
-              <p></p>
             </Jumbotron>
+            <Row>
+              <Col md={{span:7}} className="formField">
+                <Form.Control className="fieldCustom" placeholder="Email address"></Form.Control>
+              </Col>
+              <Col md={{span:5}}>
+                <Button size="lg" className="getStartedBtn">Get Started</Button>
+              </Col>
+            </Row>
+           
           </Col>
           <Col xs={{ span: 7 }}>
             <svg
