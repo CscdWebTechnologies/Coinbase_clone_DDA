@@ -6,7 +6,10 @@ const Section7 = () => {
   return (
     <Container className="containerSec7">
       <Row>
-       <JumboHeader header="Get started in a few minutes" text="Coinbase supports a variety of the most popular digital currencies."/>
+        <JumboHeader
+          header="Get started in a few minutes"
+          text="Coinbase supports a variety of the most popular digital currencies."
+        />
       </Row>
       <Row className="section7">
         <Col md={{ span: 2 }} className="text-center">
