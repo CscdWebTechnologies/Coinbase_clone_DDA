@@ -6,7 +6,7 @@ import JumboHeader from "./JumboHeader"
 const Section4=()=>{
     return (
       <Container>
-        <JumboHeader name="Create your cryptocurrency portfolio today" 
+        <JumboHeader header="Create your cryptocurrency portfolio today" 
         text="Coinbase has a variety of features that make it the best place to start trading"
         />
 
