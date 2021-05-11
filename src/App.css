@@ -93,7 +93,7 @@ h1.jumboText {
 /*Container for section 1*/
 .containersec1.container {
   margin-top: 4.7rem;
-  margin-bottom:3.5rem;
+  margin-bottom: 3.5rem;
 }
 
 /*Intro text for section 1*/
@@ -195,4 +195,12 @@ svg.bitcoinBlue {
   color: rgb(4, 49, 105);
   opacity: 0.7;
   font-weight: 400;
+}
+
+.text-center.custom2 {
+  margin: 0px;
+  line-height: 48px;
+  font-size: 40px;
+  color: rgb(15, 50, 86);
+  font-weight: 500;
 }

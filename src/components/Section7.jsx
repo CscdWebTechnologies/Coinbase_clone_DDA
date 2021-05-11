@@ -6,7 +6,7 @@ const Section7 = () => {
     <Container className="containerSec7">
       <Row>
         <Jumbotron className="sec7Jumbotron">
-          <h1 className="text-center">Get started in a few minutes</h1>
+          <h1 className="text-center custom2">Get started in a few minutes</h1>
           <p className="text-center custom">
             Coinbase supports a variety of the most popular digital currencies.
           </p>
