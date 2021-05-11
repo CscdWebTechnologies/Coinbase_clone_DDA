@@ -1,16 +1,12 @@
 import React from "react";
 import { Col, Container, Row, Jumbotron } from "react-bootstrap";
+import JumboHeader from "./JumboHeader";
 
 const Section7 = () => {
   return (
     <Container className="containerSec7">
       <Row>
-        <Jumbotron className="sec7Jumbotron">
-          <h1 className="text-center">Get started in a few minutes</h1>
-          <p className="text-center custom">
-            Coinbase supports a variety of the most popular digital currencies.
-          </p>
-        </Jumbotron>
+       <JumboHeader header="Get started in a few minutes" text="Coinbase supports a variety of the most popular digital currencies."/>
       </Row>
       <Row className="section7">
         <Col md={{ span: 2 }} className="text-center">
