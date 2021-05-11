@@ -62,8 +62,8 @@ const Section1=()=>{
               <Col md={{span:5}}>
                 <Button size="lg" className="getStartedBtn">Get Started</Button>
               </Col>
+              <a href="#" class="tcText">*Terms apply</a>
             </Row>
-           
           </Col>
           <Col xs={{ span: 7 }}>
             <svg
