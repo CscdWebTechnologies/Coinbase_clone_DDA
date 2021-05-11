@@ -79,9 +79,47 @@ svg.iphoneMock{
   height: 600px;
 }
 
+h1.jumboText{
+  font-size: 62px;
+  font-weight: 600;
+  line-height: 1.15;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  color:rgb(5, 15, 25);
+}
+
+.jumboSubText{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 32px;
+}
+
 /*Container for section 1*/
 .containersec1.container{
-  margin-top: 4rem;
+  margin-top: 4.7rem;
+}
+
+/*Intro text for section 1*/
+a.blueTxt{
+  text-decoration: none;
+  font-weight: 600;
+  cursor:pointer;
+  margin-right: 0.5rem;
+}
+
+/*Removing underline for intro text section 1*/
+a.blueTxt:hover{
+  text-decoration: underline;
+}
+
+/**/
+.subsection1.col-md-4.col-12{
+  padding-top: 2rem;
+}
+/* Intro svg for section1*/
+svg.bitcoinBlue{
+  margin-right: 0.8rem;
 }
 
 @media(max-width: 768px){
