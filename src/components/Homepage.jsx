@@ -7,6 +7,7 @@ import Section3 from "./Section3";
 import Section4 from "./Section4";
 import Section6 from "./Section6";
 import Section7 from "./Section7";
+import Section8 from "./Section8";
 import Footer from "./Footer";
 
 const Homepage = () => {
@@ -19,6 +20,7 @@ const Homepage = () => {
       <Section4 />
       <Section6 />
       <Section7 />
+      <Section8 />
       <Footer />
     </div>
   );

@@ -234,6 +234,10 @@ svg.bitcoinBlue {
   background: rgb(255, 255, 255);
 }
 
+.con-box {
+  width: 100%;
+}
+
 .cols {
   display: flex;
   flex-direction: column;
