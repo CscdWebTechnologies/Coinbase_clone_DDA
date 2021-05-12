@@ -36,25 +36,31 @@ const Section5 = () => {
             </p>
           </Row>
           <Row>
-            <a href="#" className="text-center">Learn how Coinbase keeps your funds safe and secure</a>
-            
-
-
-
+            <a href="##" className="text-center">
+              Learn how Coinbase keeps your funds safe and secure
+            </a>
           </Row>
         </Col>
         <Col md={{ span: 4 }}>
-        <Row>
-        <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
-          <path d="M56 56h-8v8h8c4.42 0 8-3.58 8-8h-8z" fill="#BFE9FF">
-            </path>
-            <path d="M48 56V0H0v56c0 4.42 3.58 8 8 8h48c-4.42 0-8-3.58-8-8z" fill="#56B4FC">
-              </path><path d="M48 56H0c0 4.42 3.58 8 8 8h48c-4.42 0-8-3.58-8-8z" fill="#1652F0"
+          <Row>
+            <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+              <path
+                d="M56 56h-8v8h8c4.42 0 8-3.58 8-8h-8z"
+                fill="#BFE9FF"
               ></path>
-              <path d="M40 30H8v2h32v-2zM40 36H8v2h32v-2zM40 42H8v2h32v-2zM32 48H16v2h16v-2zM23.5 24.66l-3.24-5.92-5.92-3.24 5.92-3.24 3.24-5.92 3.24 5.92 5.92 3.24-5.92 3.24-3.24 5.92zm-4.99-9.16l3.22 1.76 1.76 3.22 1.76-3.22 3.22-1.76-3.22-1.76-1.76-3.22-1.76 3.22-3.22 1.76z" 
-              fill="#fff">
-                </path>
-                </svg>
+              <path
+                d="M48 56V0H0v56c0 4.42 3.58 8 8 8h48c-4.42 0-8-3.58-8-8z"
+                fill="#56B4FC"
+              ></path>
+              <path
+                d="M48 56H0c0 4.42 3.58 8 8 8h48c-4.42 0-8-3.58-8-8z"
+                fill="#1652F0"
+              ></path>
+              <path
+                d="M40 30H8v2h32v-2zM40 36H8v2h32v-2zM40 42H8v2h32v-2zM32 48H16v2h16v-2zM23.5 24.66l-3.24-5.92-5.92-3.24 5.92-3.24 3.24-5.92 3.24 5.92 5.92 3.24-5.92 3.24-3.24 5.92zm-4.99-9.16l3.22 1.76 1.76 3.22 1.76-3.22 3.22-1.76-3.22-1.76-1.76-3.22-1.76 3.22-3.22 1.76z"
+                fill="#fff"
+              ></path>
+            </svg>
           </Row>
           <Row>
             <h4 className="text-center">Protected by insurance</h4>
@@ -69,18 +75,20 @@ const Section5 = () => {
             <a href="##" className="text-center">
               Learn how Coinbase keeps your funds safe and secure{" "}
             </a>
-            <p className="text-center custom4">Cryptocurrency stored on our servers is covered by our insurance policy.</p>
+            <p className="text-center custom4">
+              Cryptocurrency stored on our servers is covered by our insurance
+              policy.
+            </p>
           </Row>
           <Row>
-            <a href="#" className="text-center">Learn how your crypto is covered by our insurance policy </a>
-            
+            <a href="##" className="text-center">
+              Learn how your crypto is covered by our insurance policy{" "}
+            </a>
           </Row>
         </Col>
 
-
-
         <Col md={{ span: 4 }}>
-        <Row>
+          <Row>
             <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
               <path d="M56 0H8v50h48V0z" fill="#BFE9FF"></path>
               <path d="M64 10H0v48h64V10z" fill="#56B4FC"></path>

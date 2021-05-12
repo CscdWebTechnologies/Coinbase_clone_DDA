@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Jumbotron, Button } from "react-bootstrap";
+import { Container, Row, Jumbotron, Button } from "react-bootstrap";
 import agt from "./assets/s21.svg";
 import grt from "./assets/s22.svg";
 import xlm from "./assets/s24.svg";
