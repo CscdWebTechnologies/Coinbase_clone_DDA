@@ -11,7 +11,7 @@ const Section5=()=>{
      />
       
       <Row>
-        <Col md={{ span: 4 }}>
+        <Col md={{ span: 4 }}> 
           <Row>
             <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
               <path d="M56 0H8v50h48V0z" fill="#BFE9FF"></path>
@@ -37,7 +37,7 @@ const Section5=()=>{
             
 
 
-
+  
           </Row>
         </Col>
         <Col md={{ span: 4 }}>
