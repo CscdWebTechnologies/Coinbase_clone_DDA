@@ -33,7 +33,7 @@ const Section5=()=>{
             <p className="text-center custom4">We store the vast majority of the digital assets in secure offline storage.</p>
           </Row>
           <Row>
-            <a href="#" className="text-center">Learn how Coinbase keeps your funds safe and secure </a>
+            <a href="#" className="text-center">Learn how Coinbase keeps your funds safe and secure> </a>
             
 
 
@@ -60,7 +60,7 @@ const Section5=()=>{
             <p className="text-center custom4">Cryptocurrency stored on our servers is covered by our insurance policy.</p>
           </Row>
           <Row>
-            <a href="#" className="text-center">Learn how your crypto is covered by our insurance policy </a>
+            <a href="#" className="text-center">Learn how your crypto is covered by our insurance policy> </a>
             
           </Row>
 
