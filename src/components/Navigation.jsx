@@ -9,13 +9,24 @@ const Navigation = () => {
         <img src={logo} alt="coinbase logo" width="112" height="20" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav" className="navbar-center">
+      <Navbar.Collapse
+        id="basic-navbar-nav"
+        className="navbar-center nav-text2"
+      >
         <Nav className="navbar-center">
-          <Nav.Link href="#home">Prices</Nav.Link>
-          <Nav.Link href="#home">Learn</Nav.Link>
-          <Nav.Link href="#home">Individuals</Nav.Link>
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Businesses</NavDropdown.Item>
+          <Nav.Link href="#home">
+            <span className="nav-text1">Prices</span>
+          </Nav.Link>
+          <Nav.Link href="#home">
+            <span className="nav-text1">Learn</span>
+          </Nav.Link>
+          <Nav.Link href="#home">
+            <span className="nav-text1">Individuals</span>
+          </Nav.Link>
+          <NavDropdown title="Businesses" id="basic-nav-dropdown" className="nav-text1">
+            <NavDropdown.Item href="#action/3.1">
+              Businesses
+            </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
               Another action
             </NavDropdown.Item>
@@ -25,7 +36,11 @@ const Navigation = () => {
               Separated link
             </NavDropdown.Item>
           </NavDropdown>
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+          <NavDropdown
+            title="Developers"
+            id="basic-nav-dropdown"
+            className="nav-text1"
+          >
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
               Another action
@@ -36,8 +51,12 @@ const Navigation = () => {
               Separated link
             </NavDropdown.Item>
           </NavDropdown>
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+          <NavDropdown
+            title="Company"
+            id="basic-nav-dropdown"
+            className="nav-text1"
+          >
+            <NavDropdown.Item href="#action/3.1" >Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
               Another action
             </NavDropdown.Item>
@@ -49,9 +68,11 @@ const Navigation = () => {
           </NavDropdown>
         </Nav>
         <Nav className="navbar-right">
-          <Nav.Link>Sign In</Nav.Link>
           <Nav.Link>
-            <Button variant="primary" size="sm">
+            <span className="nav-text2">Sign in</span>
+          </Nav.Link>
+          <Nav.Link>
+            <Button variant="primary" className="right-nav-btn">
               Get Started
             </Button>
           </Nav.Link>

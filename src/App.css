@@ -5,19 +5,40 @@
   padding: 0px 20px;
   align-items: stretch;
 }
+#basic-nav-dropdown {
+  color: black;
+}
 
-.sign-in-text {
+.nav-text1 {
+  line-height: 15px;
+  display: inline-flex;
+  margin: 0px 8px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  color: black;
+}
+
+.nav-text2 {
   text-decoration: none;
   cursor: pointer;
-  margin: 0;
+  margin: 0px;
   font-size: 14px;
   line-height: 16px;
+  font-weight: 500;
+  color: black;
   font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
 
-/*.right-nav-btn {
+.nav-text2:hover {
+  color: rgb(0, 82, 225);
+  transition: color 0.25s ease 0s;
+}
+
+.right-nav-btn {
   position: relative;
   width: auto;
   margin: 0px;
@@ -25,12 +46,12 @@
   font-weight: 500;
   color: rgb(255, 255, 255);
   cursor: pointer;
-  padding: 1px 12px;
+  padding: 10px 12px;
   font-size: 14px;
   line-height: 14px;
   border: 1px solid rgb(0, 82, 255);
   background-color: rgb(0, 82, 255);
-}*/
+}
 
 /* Navbar logo*/
 .navbar-brand {
@@ -45,7 +66,7 @@
 }
 
 .navbar-right {
-  padding:0;
+  padding: 0;
   flex: 2 1;
   justify-content: flex-end;
   align-items: center;
@@ -55,9 +76,9 @@
   box-sizing: border-box;
 }
 
-/*Drops down menu on hover*/
+/*Drops down menu on */
 .dropdown:hover > .dropdown-menu {
-  display: block;
+  display: inline-flexbox;
 }
 
 /*Removes boostrap default border given to navbar toggle in mobile view*/
@@ -448,71 +469,67 @@ svg.bitcoinBlue {
   width: fit-content;
 }
 
-
-.sec4Text.col-md-4{
+.sec4Text.col-md-4 {
   margin-top: -8px;
-    width: 72px;
-    height: 72px;
-    margin-right: 28px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: rgb(218 225 233 / 56%) 0px 8px 16px;
+  width: 72px;
+  height: 72px;
+  margin-right: 28px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgb(218 225 233 / 56%) 0px 8px 16px;
 }
 
-
-.sec4TextHeader{
+.sec4TextHeader {
   margin-top: 0px;
   margin-bottom: 12px;
   font-size: 20px;
   font-weight: 500;
 }
 
-.sec4TextInfo{
+.sec4TextInfo {
   margin: 0px;
   line-height: 1.6;
   color: rgb(131, 143, 160);
 }
 
-.sec4Row{
+.sec4Row {
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
-
 
 @media (max-width: 768px) {
   .navbar-brand {
     padding-left: 1rem;
   }
 
-  .iphoneMock{
+  .iphoneMock {
     display: none;
   }
 
-  .sec4TextHeader{
+  .sec4TextHeader {
     margin-top: 0px;
     margin-bottom: 12px;
     font-size: 20px;
     font-weight: 500;
     text-align: center;
   }
-  
-  .sec4TextInfo{
+
+  .sec4TextInfo {
     margin: 0px;
     line-height: 1.6;
     color: rgb(131, 143, 160);
     text-align: center;
   }
 
-  .sec4Row{
+  .sec4Row {
     margin-bottom: 2rem;
     margin-top: 1rem;
-  
   }
 
-  .sec4Text.col-md-4{
+  .sec4Text.col-md-4 {
     margin-top: -8px;
     width: 72px;
     height: 72px;
@@ -525,7 +542,4 @@ svg.bitcoinBlue {
     justify-content: center;
     box-shadow: rgb(218 225 233 / 56%) 0px 8px 16px;
   }
-
-
-  
 }
