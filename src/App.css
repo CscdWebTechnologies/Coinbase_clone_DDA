@@ -584,4 +584,11 @@ svg.bitcoinBlue {
     justify-content: center;
     box-shadow: rgb(218 225 233 / 56%) 0px 8px 16px;
   }
+
+  .text-center.custom4 {
+    color: rgb(144, 161, 184);
+    margin: 14px 0px 23px;
+    line-height: 24px;
+    font-size: 16px;
+  }
 }
