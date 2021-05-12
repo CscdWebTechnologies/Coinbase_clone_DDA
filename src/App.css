@@ -342,3 +342,35 @@ svg.bitcoinBlue {
   font-weight: 500;
   color: rgb(17, 51, 85);
 }
+
+/*Section8 styles*/
+.earth-box {
+  background-color: rgb(233, 246, 255);
+  overflow: hidden;
+  position: relative;
+  height: 460px;
+  width: 100%;
+}
+
+.earth-img {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 65%;
+  max-width: 750px;
+  height: auto;
+}
+
+.earth-font {
+  display: block;
+  margin: 0px 0px 16px;
+}
+.earth-font-p {
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: rgb(5, 15, 25);
+}

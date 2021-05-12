@@ -4,11 +4,17 @@ import earth_astro from "./assets/earth_astro.jpg";
 
 const Section8 = () => {
   return (
-    <Container>
+    <Container fluid className="earth-box">
       <Row>
-        <Col sm={{ span: "6" }} xs={{ span: "6" }}></Col>
-        <Col sm={{ span: "6" }} xs={{ span: "6" }}>
-          <img src={earth_astro} alt="earth logo" />
+        <Col sm={{ span: "2", offset: "1" }} xs={{ span: "2" }}>
+          <h2 className="earth-font">Earn up to $28 worth of crypto</h2>
+          <p className="earth-font earth-font-p">
+            Discover how specific cryptocurrencies work — and get a bit of each
+            crypto to try out for yourself.
+          </p>
+        </Col>
+        <Col sm={{ span: "2", offset: "1" }} xs={{ span: "3" }}>
+          <img src={earth_astro} alt="earth logo" className="earth-img" />
         </Col>
       </Row>
     </Container>
