@@ -17,7 +17,7 @@ const Section4=()=>{
             </Col>
             <Col md={{ span: "5", order: "first" }}>
             <Row className="sec4Row">
-            <Col md={{span:4}} xs={{offset:5, span:3}} className="sec4Text">
+            <Col md={{offset:0, span:4}} xs={{offset:5, span:3}} className="sec4Text">
             <svg width="30" height="32" viewBox="0 0 30 32">
                     <g fill="none" fill-rule="evenodd">
                         <path fill="#D4EEFF" d="M10 32h10V10H10z"></path>
@@ -33,7 +33,7 @@ const Section4=()=>{
                 </Col>
             </Row>
               <Row className="sec4Row">
-                <Col md={{span:4}} xs={{offset:5, span:3}} className="sec4Text">
+                <Col md={{offset:0, span:4}} xs={{offset:5, span:3}} className="sec4Text">
                 <svg width="36" height="38" viewBox="0 0 36 38" >
                     <g fill="none" fill-rule="evenodd">
                         <path d="M17.813 9.5a2.375 2.375 0 002.375-2.375v-4.75a2.375 2.375 0 00-4.75 0v4.75A2.375 2.375 0 0017.811 9.5M29.688 9.5a2.375 2.375 0 002.375-2.375v-4.75a2.375 2.375 0 00-4.75 0v4.75A2.375 2.375 0 0029.688 9.5" fill="#D4EEFF"></path>
@@ -56,7 +56,7 @@ const Section4=()=>{
                 </Col>
               </Row>
               <Row className="sec4Row">
-                <Col md={{span:4}} xs={{offset:5, span:3}} className="sec4Text">
+                <Col md={{offset:0, span:4}} xs={{offset:5, span:3}} className="sec4Text">
                 <svg width="30" height="33" viewBox="0 0 30 33" fill="none">
                     <path d="M15 0C9.106 0 4.284 4.64 4.284 11.344V25.78h21.429V11.344C25.714 4.64 20.892 0 14.999 0z" fill="#D4EEFF"></path><path d="M30 12.375H0V33h30V12.375z" fill="#56B4FC"></path>
                     <path d="M25.714 12.375H4.285v16.5h21.429v-16.5z" fill="#1652F0"></path>
@@ -73,7 +73,7 @@ const Section4=()=>{
                 </Col>
               </Row>
               <Row className="sec4Row">
-                <Col md={{span:4}} xs={{offset:5, span:3}} className="sec4Text">
+                <Col md={{offset:0, span:4}} xs={{offset:5, span:3}}className="sec4Text">
                 <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
                     <path d="M36 2.25H0v31.5h36V2.25z" fill="#D4EEFF"></path>
                     <path d="M28.125 36H7.875a1.128 1.128 0 01-1.125-1.125V1.125C6.75.506 7.256 0 7.875 0h20.25c.618
