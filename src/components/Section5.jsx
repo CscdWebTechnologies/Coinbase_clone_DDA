@@ -60,7 +60,7 @@ const Section5=()=>{
             <p className="text-center custom4">Cryptocurrency stored on our servers is covered by our insurance policy.</p>
           </Row>
           <Row>
-            <a href="#" className="text-center">Learn how your crypto is covered by our insurance policy> </a>
+            <a href="#" className="text-center">Learn how your crypto is covered by our insurance policy </a>
             
           </Row>
 
