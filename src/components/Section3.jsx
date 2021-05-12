@@ -39,7 +39,7 @@ const Section3 = () => {
                         className="sec-3-logo"
                       />
                       <h2 className="sec-3-text1 sec-3-text2 sec-3-text3">
-                        Ampleforth Governace Token
+                        Ampleforth Governance Token
                       </h2>
                       <h3 className="sub-text">FORTH</h3>
                     </div>
