@@ -216,6 +216,10 @@ svg.bitcoinBlue {
   .navbar-brand {
     padding-left: 1rem;
   }
+
+  .iphoneMock{
+    display: none;
+  }
   
 }
 
