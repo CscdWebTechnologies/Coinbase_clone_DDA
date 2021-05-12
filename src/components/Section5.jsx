@@ -1,15 +1,15 @@
-import React from "react"
-import {Container, Row,Col} from "react-bootstrap"
-import JumboHeader from "./JumboHeader"
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import JumboHeader from "./JumboHeader";
 
-
-const Section5=()=>{
-  return(
+const Section5 = () => {
+  return (
     <Container className="containerSec7">
-    <JumboHeader header="The most trusted cryptocurrency platform" 
-     text="Here are a few reasons why you should choose Coinbase"
-     />
-      
+      <JumboHeader
+        header="The most trusted cryptocurrency platform"
+        text="Here are a few reasons why you should choose Coinbase"
+      />
+
       <Row>
         <Col md={{ span: 4 }}>
           <Row>
@@ -30,16 +30,19 @@ const Section5=()=>{
             <h4 className="text-center">Secure storage</h4>
           </Row>
           <Row>
-            <p className="text-center custom4">We store the vast majority of the digital assets in secure offline storage.</p>
+            <p className="text-center custom4">
+              We store the vast majority of the digital assets in secure offline
+              storage.
+            </p>
           </Row>
           <Row>
-            <a href="#" className="text-center">Learn how Coinbase keeps your funds safe and secure </a>
-            
+            <a href="##" className="text-center">
+              Learn how Coinbase keeps your funds safe and secure{" "}
+            </a>
           </Row>
         </Col>
         <Col md={{ span: 4 }}>
-
-        <Row>
+          <Row>
             <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
               <path d="M56 0H8v50h48V0z" fill="#BFE9FF"></path>
               <path d="M64 10H0v48h64V10z" fill="#56B4FC"></path>
@@ -57,17 +60,19 @@ const Section5=()=>{
             <h4 className="text-center">Secure storage</h4>
           </Row>
           <Row>
-            <p className="text-center custom4">We store the vast majority of the digital assets in secure offline storage.</p>
+            <p className="text-center custom4">
+              We store the vast majority of the digital assets in secure offline
+              storage.
+            </p>
           </Row>
           <Row>
-            <a href="#" className="text-center">Learn how Coinbase keeps your funds safe and secure </a>
-            
+            <a href="##" className="text-center">
+              Learn how Coinbase keeps your funds safe and secure{" "}
+            </a>
           </Row>
-
         </Col>
         <Col md={{ span: 4 }}>
-
-        <Row>
+          <Row>
             <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
               <path d="M56 0H8v50h48V0z" fill="#BFE9FF"></path>
               <path d="M64 10H0v48h64V10z" fill="#56B4FC"></path>
@@ -85,17 +90,19 @@ const Section5=()=>{
             <h4 className="text-center">Secure storage</h4>
           </Row>
           <Row>
-            <p className="text-center custom4">We store the vast majority of the digital assets in secure offline storage.</p>
+            <p className="text-center custom4">
+              We store the vast majority of the digital assets in secure offline
+              storage.
+            </p>
           </Row>
           <Row>
-            <a href="#" className="text-center">Learn how Coinbase keeps your funds safe and secure </a>
-            
+            <a href="##" className="text-center">
+              Learn how Coinbase keeps your funds safe and secure{" "}
+            </a>
           </Row>
-
         </Col>
-    </Row>
-
- </Container>
-  )
-}
-export default  Section5    
+      </Row>
+    </Container>
+  );
+};
+export default Section5;
