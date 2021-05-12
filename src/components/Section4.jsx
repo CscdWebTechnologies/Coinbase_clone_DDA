@@ -12,10 +12,10 @@ const Section4=()=>{
 
         <Container>
           <Row>
-            <Col md={{ span: "8", order: "last" }} xs="12">
+            <Col md={{ span: "7", order: "last" }} xs="12">
               <img className="img-fluid" src={dashboard} alt="dashboard" />
             </Col>
-            <Col md={{ span: "4", order: "first" }}>
+            <Col md={{ span: "5", order: "first" }}>
             <Row className="sec4Row">
             <Col md={{span:4}} className="sec4Text">
             <svg width="30" height="32" viewBox="0 0 30 32">
@@ -28,7 +28,7 @@ const Section4=()=>{
                 <Col md={{span:8}}>
                 <h4 className="sec4TextHeader">Manage your portfolio</h4>
                  <p className="sec4TextInfo">
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi
+                 Buy and sell popular digital currencies, keep track of them in the one place.
                   </p>
                 </Col>
             </Row>
@@ -49,9 +49,9 @@ const Section4=()=>{
                 </svg>
                 </Col>
                 <Col md={{span:8}}>
-                <h4 className="sec4TextHeader">Hello World</h4>
+                <h4 className="sec4TextHeader">Recurring buys</h4>
                  <p className="sec4TextInfo">
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi
+                 Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly.
                   </p>
                 </Col>
               </Row>
@@ -66,9 +66,9 @@ const Section4=()=>{
                 </svg>
                 </Col>
                 <Col md={{span:8}}>
-                <h4 className="sec4TextHeader">Hello World</h4>
+                <h4 className="sec4TextHeader">Vault protection</h4>
                  <p className="sec4TextInfo">
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi
+                 For added security, store your funds in a vault with time delayed withdrawals.
                   </p>
                 </Col>
               </Row>
@@ -86,9 +86,9 @@ const Section4=()=>{
                 </svg> 
                 </Col>
                 <Col md={{span:8}}>
-                <h2 className="sec4TextHeader">Hello World</h2>
+                <h2 className="sec4TextHeader">Mobile apps</h2>
                  <p className="sec4TextInfo">
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi
+                 Stay on top of the markets with the Coinbase app for Android or iOS.
                   </p>
                 </Col>
               </Row>
