@@ -1,15 +1,15 @@
-import React from "react"
-import {Container, Row,Col} from "react-bootstrap"
-import JumboHeader from "./JumboHeader"
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import JumboHeader from "./JumboHeader";
 
-
-const Section5=()=>{
-  return(
+const Section5 = () => {
+  return (
     <Container className="containerSec7">
-    <JumboHeader header="The most trusted cryptocurrency platform" 
-     text="Here are a few reasons why you should choose Coinbase"
-     />
-      
+      <JumboHeader
+        header="The most trusted cryptocurrency platform"
+        text="Here are a few reasons why you should choose Coinbase"
+      />
+
       <Row>
         <Col md={{ span: 4 }}>
           <Row>
@@ -30,50 +30,36 @@ const Section5=()=>{
             <h4 className="text-center">Secure storage</h4>
           </Row>
           <Row>
-            <p className="text-center custom4">We store the vast majority of the digital assets in secure offline storage.</p>
+            <p className="text-center custom4">
+              We store the vast majority of the digital assets in secure offline
+              storage.
+            </p>
           </Row>
           <Row>
-<<<<<<< HEAD
-            <a href="#" className="text-center">Learn how Coinbase keeps your funds safe and secure </a>
+            <a href="#" className="text-center">Learn how Coinbase keeps your funds safe and secure</a>
             
 
 
 
-=======
-            <a href="##" className="text-center">
-              Learn how Coinbase keeps your funds safe and secure
-            </a>
->>>>>>> ecccba52b9c06b0649b2dab503a9cca880ab45da
           </Row>
         </Col>
         <Col md={{ span: 4 }}>
-          <Row>
-            <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
-              <path
-                d="M56 56h-8v8h8c4.42 0 8-3.58 8-8h-8z"
-                fill="#BFE9FF"
+        <Row>
+        <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+          <path d="M56 56h-8v8h8c4.42 0 8-3.58 8-8h-8z" fill="#BFE9FF">
+            </path>
+            <path d="M48 56V0H0v56c0 4.42 3.58 8 8 8h48c-4.42 0-8-3.58-8-8z" fill="#56B4FC">
+              </path><path d="M48 56H0c0 4.42 3.58 8 8 8h48c-4.42 0-8-3.58-8-8z" fill="#1652F0"
               ></path>
-              <path
-                d="M48 56V0H0v56c0 4.42 3.58 8 8 8h48c-4.42 0-8-3.58-8-8z"
-                fill="#56B4FC"
-              ></path>
-              <path
-                d="M48 56H0c0 4.42 3.58 8 8 8h48c-4.42 0-8-3.58-8-8z"
-                fill="#1652F0"
-              ></path>
-              <path
-                d="M40 30H8v2h32v-2zM40 36H8v2h32v-2zM40 42H8v2h32v-2zM32 48H16v2h16v-2zM23.5 24.66l-3.24-5.92-5.92-3.24 5.92-3.24 3.24-5.92 3.24 5.92 5.92 3.24-5.92 3.24-3.24 5.92zm-4.99-9.16l3.22 1.76 1.76 3.22 1.76-3.22 3.22-1.76-3.22-1.76-1.76-3.22-1.76 3.22-3.22 1.76z"
-                fill="#fff"
-              ></path>
-            </svg>
+              <path d="M40 30H8v2h32v-2zM40 36H8v2h32v-2zM40 42H8v2h32v-2zM32 48H16v2h16v-2zM23.5 24.66l-3.24-5.92-5.92-3.24 5.92-3.24 3.24-5.92 3.24 5.92 5.92 3.24-5.92 3.24-3.24 5.92zm-4.99-9.16l3.22 1.76 1.76 3.22 1.76-3.22 3.22-1.76-3.22-1.76-1.76-3.22-1.76 3.22-3.22 1.76z" 
+              fill="#fff">
+                </path>
+                </svg>
           </Row>
           <Row>
             <h4 className="text-center">Protected by insurance</h4>
           </Row>
           <Row>
-<<<<<<< HEAD
-            <p className="text-center custom4">Cryptocurrency stored on our servers is covered by our insurance policy.</p>
-=======
             <p className="text-center custom4">
               We store the vast majority of the digital assets in secure offline
               storage.
@@ -83,37 +69,18 @@ const Section5=()=>{
             <a href="##" className="text-center">
               Learn how Coinbase keeps your funds safe and secure{" "}
             </a>
-            <p className="text-center custom4">
-              Cryptocurrency stored on our servers is covered by our insurance
-              policy.
-            </p>
->>>>>>> ecccba52b9c06b0649b2dab503a9cca880ab45da
+            <p className="text-center custom4">Cryptocurrency stored on our servers is covered by our insurance policy.</p>
           </Row>
           <Row>
-            <a href="##" className="text-center">
-              Learn how your crypto is covered by our insurance policy{" "}
-            </a>
+            <a href="#" className="text-center">Learn how your crypto is covered by our insurance policy </a>
+            
           </Row>
-
         </Col>
 
-        <Col md={{ span: 4 }}>
-<<<<<<< HEAD
-        <Row>
-        <svg width="56" height="64" viewBox="0 0 56 64" fill="none">
-          <path d="M56 0H24v64h32V0z" fill="#BFE9FF">
-            </path>
-            <path d="M0 8v28c0 13.25 24 24 24 24s24-10.75 24-24V8H0z" fill="#56B4FC">
-              </path>
-              <path d="M24 8v52s24-10.75 24-24V8H24z" fill="#1652F0">
-                </path>
-                <path d="M7 15v21c0 4.92 8.57 11.72 16.53 15.97l.47.25.47-.25C32.43 47.72 41 40.92 41 36V15H7zm32 2v6H9v-6h30zM24 49.95C15.55 45.35 9 39.28 9 36V25h30v11c0 3.28-6.55 9.35-15 13.95z"
-         fill="#fff">
 
-        </path>
-        </svg>
-=======
-          <Row>
+
+        <Col md={{ span: 4 }}>
+        <Row>
             <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
               <path d="M56 0H8v50h48V0z" fill="#BFE9FF"></path>
               <path d="M64 10H0v48h64V10z" fill="#56B4FC"></path>
@@ -126,23 +93,24 @@ const Section5=()=>{
                 fill="#fff"
               ></path>
             </svg>
->>>>>>> ecccba52b9c06b0649b2dab503a9cca880ab45da
           </Row>
           <Row>
-            <h4 className="text-center">Industry best practices</h4>
+            <h4 className="text-center">Secure storage</h4>
           </Row>
           <Row>
-            <p className="text-center custom4">Coinbase supports a variety of the most popular digital currencies.</p>
+            <p className="text-center custom4">
+              We store the vast majority of the digital assets in secure offline
+              storage.
+            </p>
           </Row>
           <Row>
-            <a href="#" className="text-center">Learn how we implement industry best practices for account security </a>
-            
+            <a href="##" className="text-center">
+              Learn how Coinbase keeps your funds safe and secure{" "}
+            </a>
           </Row>
-
         </Col>
-    </Row>
-
- </Container>
-  )
-}
-export default  Section5    
+      </Row>
+    </Container>
+  );
+};
+export default Section5;
