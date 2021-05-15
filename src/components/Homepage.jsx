@@ -10,6 +10,7 @@ import Section6 from "./Section6";
 import Section7 from "./Section7";
 import Section8 from "./Section8";
 import Footer from "./Footer";
+import Line from "./Line";
 
 const Homepage = () => {
   return (
@@ -19,6 +20,7 @@ const Homepage = () => {
       <Section2 />
       <Section3 />
       <Section4 />
+      <Line />
       <Section5 />
       <Section6 />
       <Section7 />

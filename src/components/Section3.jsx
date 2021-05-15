@@ -20,7 +20,7 @@ const Section3 = () => {
                   information.
                 </p>
                 <p>
-                  <Button variant="primary" size="sm">
+                  <Button variant="primary" size="md" className="right-nav-btn ">
                     Start earning
                   </Button>
                 </p>

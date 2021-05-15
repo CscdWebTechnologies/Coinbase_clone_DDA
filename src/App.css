@@ -1,3 +1,8 @@
+* {
+  font: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
 /*Navbar customizations*/
 .navbar.navbar-expand-lg.navbar-light.bg-light-custom {
   background-color: transparent;
@@ -730,4 +735,18 @@ svg.bitcoinBlue {
   color: rgb(5, 15, 25);
   font-size: 18px;
   font-weight: 500;
+}
+
+.section5-svg {
+  margin-bottom: 4.5rem;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(218, 225, 233);
+}
+
+.row-top {
+  margin-top: 5rem;
 }
