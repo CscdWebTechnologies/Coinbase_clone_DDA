@@ -36,14 +36,14 @@ const Section5 = () => {
             <h4 className="text-center">Secure storage</h4>
           </Row>
           <Row>
-            <p className="text-center custom4">
+            <p className="text-center custom4 svg-text">
               We store the vast majority of the digital assets in secure offline
               storage.
             </p>
           </Row>
           <Row>
-            <a href="#" className="text-center">
-              Learn how Coinbase keeps your funds safe and secure{" "}
+            <a href="##" className="text-center view-text svg1">
+              Learn how Coinbase keeps your funds safe and secure &gt;
             </a>
           </Row>
         </Col>
@@ -78,14 +78,14 @@ const Section5 = () => {
             <h4 className="text-center">Protected by insurance</h4>
           </Row>
           <Row>
-            <p className="text-center custom4">
+            <p className="text-center custom4 svg-text">
               Cryptocurrency stored on our servers is covered by our insurance
               policy.
             </p>
           </Row>
           <Row>
-            <a href="#" className="text-center">
-              Learn how your crypto is covered by our insurance policy{" "}
+            <a href="##" className="text-center view-text svg1">
+              Learn how your crypto is covered by our insurance policy &gt;
             </a>
           </Row>
         </Col>
@@ -115,15 +115,15 @@ const Section5 = () => {
             <h4 className="text-center">Industry best practices</h4>
           </Row>
           <Row>
-            <p className="text-center custom4">
+            <p className="text-center custom4 svg-text">
               Coinbase supports a variety of the most popular digital
               currencies.
             </p>
           </Row>
           <Row>
-            <a href="##" className="text-center">
+            <a href="##" className="text-center view-text svg1">
               Learn how we implement industry best practices for account
-              security{" "}
+              security &gt;
             </a>
           </Row>
         </Col>

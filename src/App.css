@@ -750,3 +750,14 @@ svg.bitcoinBlue {
 .row-top {
   margin-top: 5rem;
 }
+
+.svg-text {
+  color: rgb(144, 161, 184);
+  margin: 14px 0px 23px;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.svg1 {
+  font-size: 14px;
+}

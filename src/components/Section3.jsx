@@ -12,7 +12,7 @@ const Section3 = () => {
         <section className="flex-grid">
           <div sm={{ span: "4" }} xs={{ span: "6" }} className="col1-sec-3">
             <div className="earth-text-grid">
-              <Jumbotron>
+              <Jumbotron style={{ marginBottom: "60px" }}>
                 <h3>Earn up to $28 worth of crypto</h3>
                 <p>
                   This is a simple hero unit, a simple jumbotron-style component
@@ -20,7 +20,11 @@ const Section3 = () => {
                   information.
                 </p>
                 <p>
-                  <Button variant="primary" size="md" className="right-nav-btn ">
+                  <Button
+                    variant="primary"
+                    size="md"
+                    className="right-nav-btn "
+                  >
                     Start earning
                   </Button>
                 </p>

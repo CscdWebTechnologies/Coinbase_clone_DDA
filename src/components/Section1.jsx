@@ -8,7 +8,7 @@ const Section1 = () => {
     <Container className="containersec1">
       <Row>
         <Col md="5" xs="12" className="subsection1">
-          <a href="#" class="blueTxt">
+          <a href="##" class="blueTxt">
             <svg
               width="24"
               height="24"
