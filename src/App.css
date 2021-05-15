@@ -761,3 +761,12 @@ svg.bitcoinBlue {
 .svg1 {
   font-size: 14px;
 }
+
+.sec3-text-grid {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  justify-content: center;
+  z-index: 1;
+  min-width: 250px;
+}

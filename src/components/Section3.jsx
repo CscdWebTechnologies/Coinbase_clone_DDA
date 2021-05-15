@@ -11,26 +11,20 @@ const Section3 = () => {
       <Row className="big-box row-flex">
         <section className="flex-grid">
           <div sm={{ span: "4" }} xs={{ span: "6" }} className="col1-sec-3">
-            <div className="earth-text-grid">
-              <Jumbotron style={{ marginBottom: "60px" }}>
-                <h3>Earn up to $28 worth of crypto</h3>
-                <p>
-                  This is a simple hero unit, a simple jumbotron-style component
-                  for calling extra attention to featured content or
-                  information.
-                </p>
-                <p>
-                  <Button
-                    variant="primary"
-                    size="md"
-                    className="right-nav-btn "
-                  >
-                    Start earning
-                  </Button>
-                </p>
-              </Jumbotron>
+            <div className="sec3-text-grid">
+              <h2 className="earth-font display-text">
+                Earn up to $28 worth of crypto
+              </h2>
+              <p className="earth-font-p display-text">
+                Discover how specific cryptocurrencies work — and get a bit of
+                each crypto to try out for yourself.
+              </p>
+              <Button variant="primary" size="sm" className="start-earn-btn">
+                Start earning
+              </Button>
             </div>
           </div>
+
           <div className="col2-sec-3">
             <div style={{ width: "100%" }}>
               <div className="row-sec-3">
