@@ -37,11 +37,16 @@ const Section2 = () => {
                       width="36"
                     />
                   </Col>
-                  <div md="10" className="table-grid">
-                    <h4 className="table-name1 pad align display">Bitcoin</h4>
-                    <h4 className="table-name2 pad align display">BTC</h4>
-                  </div>
-                  <Col></Col>
+                  <Col md="10">
+                    <Container className="tableRowContainer">
+                      <Row>
+                        <Col md="3" className="zero-padding"><h4 className="table-name1">Bitcoin</h4></Col>
+                        <Col md="2" className="zero-padding"><h4 className="table-name2">BTC</h4></Col>
+                       
+                      </Row>
+                    </Container>
+                    
+                  </Col>
                 </Row>
               </Container>
             </td>
@@ -88,7 +93,13 @@ const Section2 = () => {
                     <img src={ethereum} alt="ethereum" height="36" width="36" />
                   </Col>
                   <Col md="10">
-                    <h4>Ethereum ETH</h4>
+                  <Container className="tableRowContainer">
+                      <Row>
+                        <Col md="4" className="zero-padding"><h4 className="table-name1">Ethereum</h4></Col>
+                        <Col md="2" className="zero-padding"><h4 className="table-name2">ETH</h4></Col>
+                       
+                      </Row>
+                    </Container>
                   </Col>
                 </Row>
               </Container>
@@ -145,13 +156,19 @@ const Section2 = () => {
                     />
                   </Col>
                   <Col md="10">
-                    <h4>Bitcoin Cash BCH</h4>
+                  <Container className="tableRowContainer">
+                      <Row>
+                        <Col md="5" className="zero-padding"><h4 className="table-name1">Bitcoin Cash</h4></Col>
+                        <Col md="2" className="zero-padding"><h4 className="table-name2">BCH</h4></Col>
+                       
+                      </Row>
+                    </Container>
                   </Col>
                 </Row>
               </Container>
             </td>
             <td>
-              <h4 className="sec2-price">GHs 7711.84</h4>
+              <h4 className="sec2-price">GHS 7711.84</h4>
             </td>
             <td>
               <h4 className="sec2-change">-0.96%</h4>
@@ -200,7 +217,13 @@ const Section2 = () => {
                     />
                   </Col>
                   <Col md="10">
-                    <h4>Litecoin LTC</h4>
+                  <Container className="tableRowContainer">
+                      <Row>
+                        <Col md="4" className="zero-padding"><h4 className="table-name1">LiteCoin</h4></Col>
+                        <Col md="2" className="zero-padding"><h4 className="table-name2">LTC</h4></Col>
+                       
+                      </Row>
+                    </Container>
                   </Col>
                 </Row>
               </Container>
