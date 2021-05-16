@@ -24,7 +24,7 @@ const Section2 = () => {
         <tbody>
           <tr className="bitcoin">
             <td>
-              <h4>1</h4>
+              <h4 className="table-name2">1</h4>
             </td>
             <td>
               <Container>
@@ -86,7 +86,7 @@ const Section2 = () => {
           </tr>
           <tr className="ethereum">
             <td>
-              <h4>2</h4>
+              <h4 className="table-name2">2</h4>
             </td>
             <td>
               <Container>
@@ -149,7 +149,7 @@ const Section2 = () => {
           </tr>
           <tr className="bitcoinCash">
             <td>
-              <h4>3</h4>
+              <h4 className="table-name2">3</h4>
             </td>
             <td>
               <Container>
@@ -178,7 +178,7 @@ const Section2 = () => {
               </Container>
             </td>
             <td>
-              <h4 className="sec2-price">GHS 7711.84</h4>
+              <h4 className="sec2-price">GHS 7,711.84</h4>
             </td>
             <td>
               <h4 className="sec2-change">-0.96%</h4>
@@ -213,7 +213,7 @@ const Section2 = () => {
           </tr>
           <tr className="litecoin">
             <td>
-              <h4>4</h4>
+              <h4 className="table-name2">4</h4>
             </td>
             <td>
               <Container>

@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col, Jumbotron, Form, Button } from "react-bootstrap";
-import image1 from "./assets/image1.svg";
 import IphoneMock from "./IphoneMock";
 
 const Section1 = () => {
