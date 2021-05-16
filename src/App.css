@@ -1,6 +1,6 @@
 * {
-  font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif !important;
 }
 
@@ -553,6 +553,10 @@ svg.bitcoinBlue {
     padding-left: 1rem;
   }
 
+  .earth-img {
+    display: none;
+  }
+
   .iphoneMock {
     display: none;
   }
@@ -624,6 +628,7 @@ svg.bitcoinBlue {
   height: auto;
   width: 100%;
 }
+
 .col1-sec-3 {
   display: flex;
   justify-content: flex-start;
