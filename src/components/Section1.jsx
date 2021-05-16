@@ -68,7 +68,7 @@ const Section1 = () => {
                 Get Started
               </Button>
             </Col>
-            <a href="#" class="tcText">
+            <a href="##" class="tcText">
               *Terms apply
             </a>
           </Row>

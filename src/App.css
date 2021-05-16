@@ -1,6 +1,7 @@
 * {
-  font: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif !important;
 }
 
 /*Navbar customizations*/
@@ -118,6 +119,7 @@
   justify-content: flex-end;
   align-items: center;
 }
+
 
 * {
   box-sizing: border-box;
@@ -769,4 +771,84 @@ svg.bitcoinBlue {
   justify-content: center;
   z-index: 1;
   min-width: 250px;
+}
+
+/*Section2*/
+.sec2-change {
+  font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  line-height: 1.3;
+  color: rgb(223, 95, 103);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.sec2-change.green {
+  color: rgb(5, 177, 105);
+}
+
+.sec2-price {
+  font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  line-height: 1.3;
+  color: rgb(5, 15, 25);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.table-btn {
+  border: 1px solid rgb(5, 177, 105);
+  background-color: rgb(5, 177, 105);
+}
+
+.table-title {
+  font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: rgba(17, 51, 83, 0.6);
+  transition: color 80ms ease-in-out 0s;
+}
+
+.table-name1 {
+  font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  line-height: 1.3;
+  color: rgb(5, 15, 25);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.pad h4 {
+  padding-left: 16px;
+}
+
+.align {
+  text-align: left;
+}
+
+.display {
+  display: block;
+  margin: 0px;
+}
+
+.table-name2 {
+  font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  line-height: 1.3;
+  color: rgba(17, 51, 83, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.table-grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
