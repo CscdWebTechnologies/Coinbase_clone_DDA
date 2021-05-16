@@ -15,7 +15,7 @@ const Section8 = () => {
               Discover how specific cryptocurrencies work — and get a bit of
               each crypto to try out for yourself.
             </p>
-            <Button variant="primary" size="sm" className="start-earn-btn">
+            <Button variant="primary" size="sm" className="start-earn-btn margin">
               Start earning
             </Button>
           </div>

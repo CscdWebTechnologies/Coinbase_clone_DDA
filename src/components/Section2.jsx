@@ -11,24 +11,34 @@ const Section2 = () => {
       <Table hover size="md">
         <thead>
           <tr>
-            <th className="table-title">#</th>
+            <th>
+              <label className="table-title hash">#</label>
+            </th>
             <th>
               <label className="table-title">Name</label>
             </th>
-            <th className="table-title">Price</th>
-            <th className="table-title">Change</th>
-            <th className="table-title">Chart</th>
-            <th className="table-title">Trade</th>
+            <th>
+              <label className="table-title">Price</label>
+            </th>
+            <th>
+              <label className="table-title">Change</label>
+            </th>
+            <th>
+              <label className="table-title">Chart</label>
+            </th>
+            <th>
+              <label className="table-title">Trade</label>
+            </th>
           </tr>
         </thead>
         <tbody>
-          <tr className="bitcoin">
+          <tr className="bitcoin ">
             <td>
-              <h4 className="table-name2">1</h4>
+              <h4 className="table-name2 l-pad ">1</h4>
             </td>
             <td>
               <Container>
-                <Row>
+                <Row className="">
                   <Col md="2">
                     <img
                       src={bitcoin}
@@ -53,10 +63,10 @@ const Section2 = () => {
               </Container>
             </td>
             <td>
-              <h4 className="sec2-price">GHS 333,490.67</h4>
+              <h4 className="table-name1 l-pad1">GHS 333,490.67</h4>
             </td>
             <td>
-              <h4 className="sec2-change">-2.67%</h4>
+              <h4 className="sec2-change l-pad1">-2.67%</h4>
             </td>
             <td>
               <svg
@@ -79,14 +89,14 @@ const Section2 = () => {
               </svg>
             </td>
             <td>
-              <Button variant="success" size="md" className="table-btn">
+              <Button variant="success" size="md" className="table-btn margin">
                 Buy
               </Button>
             </td>
           </tr>
           <tr className="ethereum">
             <td>
-              <h4 className="table-name2">2</h4>
+              <h4 className="table-name2 l-pad">2</h4>
             </td>
             <td>
               <Container>
@@ -112,7 +122,7 @@ const Section2 = () => {
               </Container>
             </td>
             <td>
-              <h4 className="sec2-price">GHS 22,563.03</h4>
+              <h4 className="table-name1 l-pad1">GHS 22,563.03</h4>
             </td>
             <td>
               <h4 className="sec2-change green">+4.04%</h4>
@@ -149,7 +159,7 @@ const Section2 = () => {
           </tr>
           <tr className="bitcoinCash">
             <td>
-              <h4 className="table-name2">3</h4>
+              <h4 className="table-name2 l-pad">3</h4>
             </td>
             <td>
               <Container>
@@ -163,7 +173,7 @@ const Section2 = () => {
                     />
                   </Col>
                   <Col md="10">
-                    <Container className="tableRowContainer">
+                    <Container className="tableRowContainer ">
                       <Row>
                         <Col md="5" className="zero-padding">
                           <h4 className="table-name1">Bitcoin Cash</h4>
@@ -178,10 +188,10 @@ const Section2 = () => {
               </Container>
             </td>
             <td>
-              <h4 className="sec2-price">GHS 7,711.84</h4>
+              <h4 className="table-name1 l-pad1">GHS 7,711.84</h4>
             </td>
             <td>
-              <h4 className="sec2-change">-0.96%</h4>
+              <h4 className="sec2-change l-pad1">-0.96%</h4>
             </td>
             <td>
               <svg
@@ -213,7 +223,7 @@ const Section2 = () => {
           </tr>
           <tr className="litecoin">
             <td>
-              <h4 className="table-name2">4</h4>
+              <h4 className="table-name2 l-pad">4</h4>
             </td>
             <td>
               <Container>
@@ -242,10 +252,10 @@ const Section2 = () => {
               </Container>
             </td>
             <td>
-              <h4 className="sec2-price">GHS 2,107.36</h4>
+              <h4 className="table-name1 l-pad1">GHS 2,107.36</h4>
             </td>
             <td>
-              <h4 className="sec2-change green">+0.67%</h4>
+              <h4 className="sec2-change green l-pad1">+0.67%</h4>
             </td>
             <td>
               <svg
@@ -256,6 +266,7 @@ const Section2 = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewbox="0 0 70 22.41"
                 preserveAspectRatio="none"
+                
               >
                 <path
                   className="pathStyle"
@@ -271,8 +282,8 @@ const Section2 = () => {
                 ></path>
               </svg>
             </td>
-            <td>
-              <Button variant="success" size="md" className="table-btn">
+            <td className="">
+              <Button variant="success" size="md" className="table-btn ">
                 Buy
               </Button>
             </td>
