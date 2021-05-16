@@ -11,11 +11,12 @@ import Section7 from "./Section7";
 import Section8 from "./Section8";
 import Footer from "./Footer";
 import Line from "./Line";
+import Navi from "./Navi";
 
 const Homepage = () => {
   return (
     <div>
-      <Navigation />
+      <Navi/>
       <Section1 />
       <Section2 />
       <Section3 />
