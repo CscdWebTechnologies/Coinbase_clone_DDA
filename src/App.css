@@ -120,7 +120,6 @@
   align-items: center;
 }
 
-
 * {
   box-sizing: border-box;
 }
@@ -847,8 +846,16 @@ svg.bitcoinBlue {
   font-weight: 400;
 }
 
-.table-grid {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.tableRowContainer.container {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 5px;
+}
+
+.zero-padding.col-md-3 {
+  padding-right: 0px;
+}
+
+.zero-padding.col-md-2 {
+  padding-left: 0px;
 }
