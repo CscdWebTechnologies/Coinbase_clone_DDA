@@ -8,11 +8,32 @@
 .navbar.navbar-expand-lg.navbar-light.bg-light-custom {
   background-color: transparent;
   border-bottom: 1px solid rgb(236, 239, 241);
-  padding: 0px 20px;
+  padding: 10px 20px;
   align-items: stretch;
 }
 #basic-nav-dropdown {
   color: black;
+}
+
+.dropdown-container.container{
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+.dropdown {
+  position:static !important;
+}
+
+.dropdown-menu.show {
+  
+  margin-top: 0.9rem !important;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  width:100%;
+  text-align:center;
+  left:0;
+  right:0;
 }
 
 .sec-learn {
@@ -124,10 +145,6 @@
   box-sizing: border-box;
 }
 
-/*Drops down menu on */
-.dropdown:hover > .dropdown-menu {
-  display: block;
-}
 
 /*Removes boostrap default border given to navbar toggle in mobile view*/
 .navbar-light .navbar-toggler {
