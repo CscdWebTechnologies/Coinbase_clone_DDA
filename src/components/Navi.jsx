@@ -54,38 +54,42 @@ const Navi=()=>{
                         <p className="droprow-text">Buy, sell and use crypto</p>
                       </Col>
                     </Row>
-                    <Row>
+                    <Row className="droprow">
                       <Col md={{ span: 2 }} className="dp-svg">
                         <img src={dp2} height="40" width="40" alt="dp2 svg" />
                       </Col>
-                      <Col md={{ span: 6 }}>
-                        <p>Buy and selll</p>
+                      <Col md={{ span: 8 }}>
+                        <p className="droprow-header">Buy and selll</p>
+                        <p className="droprow-text">Buy, sell and use crypto</p>
                       </Col>
                     </Row>
-                    <Row>
+                    <Row className="droprow">
                       <Col md={{ span: 2 }} className="dp-svg">
                         <img src={dp3} height="40" width="40" alt="dp3 svg" />
                       </Col>
-                      <Col md={{ span: 6 }}>
-                        <p>Buy and selll</p>
+                      <Col md={{ span: 8 }}>
+                        <p className="droprow-header">Buy and selll</p>
+                        <p className="droprow-text">Buy, sell and use crypto</p>
                       </Col>
                     </Row>
                   </Col>
                   <Col md={{ span: 3 }}>
-                    <Row>
+                    <Row className="droprow">
                       <Col md={{ span: 2 }} className="dp-svg">
                         <img src={dp4} height="40" width="40" alt="d4 svg" />
                       </Col>
-                      <Col md={{ span: 6 }}>
-                        <p>Buy and selll</p>
+                      <Col md={{ span: 8 }}>
+                        <p className="droprow-header">Buy and selll</p>
+                        <p className="droprow-text">Buy, sell and use crypto</p>
                       </Col>
                     </Row>
                     <Row>
                       <Col md={{ span: 2 }} className="dp-svg">
                         <img src={dp5} height="40" width="40" alt="d5 svg" />
                       </Col>
-                      <Col md={{ span: 6 }}>
-                        <p>Buy and selll</p>
+                      <Col md={{ span: 8 }}>
+                        <p className="droprow-header">Buy and selll</p>
+                        <p className="droprow-text">Buy, sell and use crypto</p>
                       </Col>
                     </Row>
                   </Col>
@@ -108,16 +112,16 @@ const Navi=()=>{
                       <Col md={{ span: 2 }} className="dp-svg" >
                         <img src={dp6} height="40" width="40" alt="dp6 svg" />
                       </Col>
-                      <Col md={{ span: 6 }}>
-                        <p>Buy and selll</p>
+                      <Col md={{ span: 8 }}>
+                        <p className="droprow-header">Buy and selll</p>
                       </Col>
                     </Row>
                     <Row>
                       <Col md={{ span: 2 }} className="dp-svg">
                         <img src={dp7} height="40" width="40" alt="dp7 svg" />
                       </Col>
-                      <Col md={{ span: 6 }}>
-                        <p>Buy and selll</p>
+                      <Col md={{ span: 8 }}>
+                        <p className="droprow-header">Buy and selll</p>
                       </Col>
                     </Row>
                   </Col>
@@ -126,7 +130,7 @@ const Navi=()=>{
                       <Col md={{ span: 2 }} className="dp-svg">
                         <img src={dp8} height="40" width="40" alt="dp8 svg" />
                       </Col>
-                      <Col md={{ span: 6 }}>
+                      <Col md={{ span: 8 }}>
                         <p>Buy and selll</p>
                       </Col>
                     </Row>
@@ -134,8 +138,8 @@ const Navi=()=>{
                       <Col md={{ span: 2 }} className="dp-svg">
                         <img src={dp9} height="40" width="40" alt="dp9 svg" />
                       </Col>
-                      <Col md={{ span: 6 }}>
-                        <p>Buy and selll</p>
+                      <Col md={{ span: 8 }}>
+                        <p className="droprow-header">Buy and selll</p>
                       </Col>
                     </Row>
                   </Col>
