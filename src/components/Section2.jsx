@@ -266,7 +266,6 @@ const Section2 = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewbox="0 0 70 22.41"
                 preserveAspectRatio="none"
-                
               >
                 <path
                   className="pathStyle"

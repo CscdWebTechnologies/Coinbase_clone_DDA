@@ -62,30 +62,28 @@
   text-align: left;
 }
 
-.sec-learn {
-  padding: 40px 45px;
-  background: rgb(255, 255, 255);
-  transition: all 150ms linear 0s, box-shadow 0ms linear 0s;
-  text-align: left;
-  opacity: 0;
-  /*visibility: hidden;*/
-  pointer-events: none;
-  position: absolute;
-  z-index: 2;
-  top: calc(100% + 1px);
-  left: 0px;
-  width: 100%;
-  box-sizing: border-box;
-  border-bottom: 1px solid rgb(236, 239, 241);
+.sec-learn-text {
+  margin-right: 60px;
+  margin: 0px;
+  font-size: 18px;
+  font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: rgb(5, 15, 25);
+  font-weight: 500;
+  line-height: 16ps;
+  text-decoration: none;
+  display: inline-flex;
+  min-width: 145px;
 }
 
-.sec-learn2 {
-  max-width: 1065px;
-  margin: 0px auto;
-  display: flex;
-  justify-content: center;
-  transition: all 300ms ease-in-out;
-  opacity: 0;
+.sec-learn-text:hover {
+  color: rgb(0, 82, 255);
+}
+
+.sec-col2 {
+  flex: 1 1 0%;
+  max-width: 320px;
 }
 
 .sec-col {
