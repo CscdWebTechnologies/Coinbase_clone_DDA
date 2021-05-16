@@ -57,6 +57,12 @@
   color: rgba(17, 51, 83, 0.6);
 }
 
+.droprow-text2{
+  margin-bottom: 0rem;
+  text-align: left;
+
+}
+
 .sec-learn {
   padding: 40px 45px;
   background: rgb(255, 255, 255);
