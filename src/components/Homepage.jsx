@@ -16,7 +16,7 @@ import Navi from "./Navi";
 const Homepage = () => {
   return (
     <div>
-      <Navi/>
+      <Navi />
       <Section1 />
       <Section2 />
       <Section3 />
