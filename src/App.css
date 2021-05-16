@@ -141,7 +141,6 @@
   align-items: center;
 }
 
-
 * {
   box-sizing: border-box;
 }
@@ -861,26 +860,19 @@ svg.bitcoinBlue {
   line-height: 1.3;
   color: rgba(17, 51, 83, 0.6);
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 490;
 }
 
-.table-grid {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-
-.tableRowContainer.container{
+.tableRowContainer.container {
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 5px;
 }
 
-.zero-padding.col-md-3{
-    padding-right: 0px;
+.zero-padding.col-md-3 {
+  padding-right: 0px;
 }
 
-.zero-padding.col-md-2{
+.zero-padding.col-md-2 {
   padding-left: 0px;
 }
