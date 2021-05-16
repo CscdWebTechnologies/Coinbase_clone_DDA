@@ -36,12 +36,11 @@ const Section2 = () => {
                       height="36"
                       width="36"
                     />
+                    <div md="10" className="table-grid">
+                      <h4 className="table-name1 pad align display">Bitcoin</h4>
+                      <h4 className="table-name2 pad align display">BTC</h4>
+                    </div>
                   </Col>
-                  <div md="10" className="table-grid">
-                    <h4 className="table-name1 pad align display">Bitcoin</h4>
-                    <h4 className="table-name2 pad align display">BTC</h4>
-                  </div>
-                  <Col></Col>
                 </Row>
               </Container>
             </td>
@@ -151,7 +150,7 @@ const Section2 = () => {
               </Container>
             </td>
             <td>
-              <h4 className="sec2-price">GHs 7711.84</h4>
+              <h4 className="sec2-price">GHs 7,711.84</h4>
             </td>
             <td>
               <h4 className="sec2-change">-0.96%</h4>
@@ -206,7 +205,7 @@ const Section2 = () => {
               </Container>
             </td>
             <td>
-              <h4 className="sec2-price">GHS 2107.36</h4>
+              <h4 className="sec2-price">GHS 2,107.36</h4>
             </td>
             <td>
               <h4 className="sec2-change green">+0.67%</h4>
