@@ -35,7 +35,7 @@ const Navi=()=>{
                     <Row>
                       <p>Crypto questions, answered</p>
                       <p>Guides and explainers for your crypto questions</p>
-                      <a>See all articles</a>
+                      <a href="##">See all articles</a>
                     </Row>
                   </Col>
                 </Row>
@@ -45,9 +45,18 @@ const Navi=()=>{
               <Container className="dropdown-container">
                 <Row>
                   <Col md={{ span: 3, offset: 1 }}>
-                    <Row>
+                    <Row className="droprow">
                       <Col md={{ span: 2 }}>
-                        <img src={dp1} height="40" width="40" />
+                        <img src={dp1} height="40" width="40" alt="dp1 svg" />
+                      </Col>
+                      <Col md={{ span: 8 }}>
+                        <p  className="droprow-header">Buy and selll</p>
+                        <p className="droprow-text">Buy, sell and use crypto</p>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col md={{ span: 2 }} className="dp-svg">
+                        <img src={dp2} height="40" width="40" alt="dp2 svg" />
                       </Col>
                       <Col md={{ span: 6 }}>
                         <p>Buy and selll</p>
@@ -55,15 +64,7 @@ const Navi=()=>{
                     </Row>
                     <Row>
                       <Col md={{ span: 2 }} className="dp-svg">
-                        <img src={dp2} height="40" width="40" />
-                      </Col>
-                      <Col md={{ span: 6 }}>
-                        <p>Buy and selll</p>
-                      </Col>
-                    </Row>
-                    <Row>
-                      <Col md={{ span: 2 }} className="dp-svg">
-                        <img src={dp3} height="40" width="40" />
+                        <img src={dp3} height="40" width="40" alt="dp3 svg" />
                       </Col>
                       <Col md={{ span: 6 }}>
                         <p>Buy and selll</p>
@@ -73,7 +74,7 @@ const Navi=()=>{
                   <Col md={{ span: 3 }}>
                     <Row>
                       <Col md={{ span: 2 }} className="dp-svg">
-                        <img src={dp4} height="40" width="40" />
+                        <img src={dp4} height="40" width="40" alt="d4 svg" />
                       </Col>
                       <Col md={{ span: 6 }}>
                         <p>Buy and selll</p>
@@ -81,7 +82,7 @@ const Navi=()=>{
                     </Row>
                     <Row>
                       <Col md={{ span: 2 }} className="dp-svg">
-                        <img src={dp5} height="40" width="40" />
+                        <img src={dp5} height="40" width="40" alt="d5 svg" />
                       </Col>
                       <Col md={{ span: 6 }}>
                         <p>Buy and selll</p>
@@ -93,7 +94,7 @@ const Navi=()=>{
                       <p>Crypto tools for everyone</p>
                       <p>Buy, sell, and spend crypto on the
                     world's most trusted crypto exchange</p>
-                      <a>See all products</a>
+                      <a href="##">See all products</a>
                     </Row>
                   </Col>
                 </Row>
@@ -105,7 +106,7 @@ const Navi=()=>{
                   <Col md={{ span: 3, offset: 1 }}>
                     <Row>
                       <Col md={{ span: 2 }} className="dp-svg" >
-                        <img src={dp6} height="40" width="40" />
+                        <img src={dp6} height="40" width="40" alt="dp6 svg" />
                       </Col>
                       <Col md={{ span: 6 }}>
                         <p>Buy and selll</p>
@@ -113,7 +114,7 @@ const Navi=()=>{
                     </Row>
                     <Row>
                       <Col md={{ span: 2 }} className="dp-svg">
-                        <img src={dp7} height="40" width="40" />
+                        <img src={dp7} height="40" width="40" alt="dp7 svg" />
                       </Col>
                       <Col md={{ span: 6 }}>
                         <p>Buy and selll</p>
@@ -123,7 +124,7 @@ const Navi=()=>{
                   <Col md={{ span: 3 }}>
                     <Row>
                       <Col md={{ span: 2 }} className="dp-svg">
-                        <img src={dp8} height="40" width="40" />
+                        <img src={dp8} height="40" width="40" alt="dp8 svg" />
                       </Col>
                       <Col md={{ span: 6 }}>
                         <p>Buy and selll</p>
@@ -131,7 +132,7 @@ const Navi=()=>{
                     </Row>
                     <Row>
                       <Col md={{ span: 2 }} className="dp-svg">
-                        <img src={dp9} height="40" width="40" />
+                        <img src={dp9} height="40" width="40" alt="dp9 svg" />
                       </Col>
                       <Col md={{ span: 6 }}>
                         <p>Buy and selll</p>
@@ -143,7 +144,7 @@ const Navi=()=>{
                       <p>Crypto tools for everyone</p>
                       <p>Buy, sell, and spend crypto on the
                     world's most trusted crypto exchange</p>
-                      <a>See all products</a>
+                      <a href="##">See all products</a>
                     </Row>
                   </Col>
                 </Row>
