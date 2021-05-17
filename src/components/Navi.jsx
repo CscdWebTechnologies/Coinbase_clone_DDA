@@ -107,43 +107,43 @@ const Navi=()=>{
             <NavDropdown title="Businesses" id="basic-nav-dropdown">
             <Container className="dropdown-container">
                 <Row>
-                  <Col md={{ span: 3, offset: 1 }}>
+                  <Col md={{ span: 4, offset: 1 }}>
                     <Row className="droprow">
                       <Col md={{ span: 2 }} className="dp-svg" >
                         <img src={dp6} height="40" width="40" alt="dp6 svg" />
                       </Col>
                       <Col md={{ span: 8 }}>
-                        <p className="droprow-header">Buy and selll</p>
-                        <p className="droprow-text">Buy, sell and use crypto</p>
+                        <p className="droprow-header">Prime</p>
+                        <p className="droprow-text">The prime brokerage platform</p>
                       </Col>
                     </Row>
                     <Row className="droprow">
                       <Col md={{ span: 2 }} className="dp-svg">
                         <img src={dp7} height="40" width="40" alt="dp7 svg" />
                       </Col>
-                      <Col md={{ span: 8 }}>
-                        <p className="droprow-header">Buy and selll</p>
-                        <p className="droprow-text">Buy, sell and use crypto</p>
+                      <Col md={{ span: 9 }}>
+                        <p className="droprow-header">Custody</p>
+                        <p className="droprow-text">Institutional-grade offline storage</p>
                       </Col>
                     </Row>
                   </Col>
-                  <Col md={{ span: 3 }}>
+                  <Col md={{ span: 4 }}>
                     <Row className="droprow">
                       <Col md={{ span: 2 }} className="dp-svg">
                         <img src={dp8} height="40" width="40" alt="dp8 svg" />
                       </Col>
-                      <Col md={{ span: 8 }}>
-                        <p className="droprow-header">Buy and selll</p>
-                        <p className="droprow-text">Buy, sell and use crypto</p>
+                      <Col md={{ span: 9 }}>
+                        <p className="droprow-header">Commerce</p>
+                        <p className="droprow-text">Accept crypto from anyone</p>
                       </Col>
                     </Row>
                     <Row className="droprow">
                       <Col md={{ span: 2 }} className="dp-svg">
                         <img src={dp9} height="40" width="40" alt="dp9 svg" />
                       </Col>
-                      <Col md={{ span: 8 }}>
-                        <p className="droprow-header">Buy and selll</p>
-                        <p className="droprow-text">Buy, sell and use crypto</p>
+                      <Col md={{ span: 9 }}>
+                        <p className="droprow-header">Asset Hub</p>
+                        <p className="droprow-text">List your asset on coinbase</p>
                       </Col>
                     </Row>
                   </Col>
