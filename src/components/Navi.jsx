@@ -98,7 +98,7 @@ const Navi=()=>{
                       <p className="droprow-header">Crypto tools for everyone</p>
                       <p className="droprow-text2">Buy, sell, and spend crypto on the
                     world's most trusted crypto exchange</p>
-                      <a href="##">See all products</a>
+                      <a href="##" className="view-text">See all products</a>
                     </Row>
                   </Col>
                 </Row>
@@ -152,7 +152,7 @@ const Navi=()=>{
                       <p>Crypto tools for everyone</p>
                       <p>Buy, sell, and spend crypto on the
                     world's most trusted crypto exchange</p>
-                      <a href="##">See all products</a>
+                      <a href="##" className="view-text">See all products</a>
                     </Row>
                   </Col>
                 </Row>
