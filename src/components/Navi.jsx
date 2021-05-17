@@ -113,115 +113,10 @@ const Navi = () => {
                 </Col>
                 <Col md={{ span: 3 }}>
                   <Row>
-<<<<<<< HEAD
-                    <p className="droprow-header">Crypto tools for everyone</p>
-                    <p className="droprow-text2">
-                      Buy, sell, and spend crypto on the world's most trusted
-                      crypto exchange
-                    </p>
-                    <a href="##">See all products</a>
-                  </Row>
-                </Col>
-              </Row>
-            </Container>
-          </NavDropdown>
-          <NavDropdown title="Businesses" id="basic-nav-dropdown">
-            <Container className="dropdown-container">
-              <Row>
-                <Col md={{ span: 3, offset: 1 }}>
-                  <Row className="droprow">
-                    <Col md={{ span: 2 }} className="dp-svg">
-                      <img src={dp6} height="40" width="40" alt="dp6 svg" />
-                    </Col>
-                    <Col md={{ span: 8 }}>
-                      <p className="droprow-header">Buy and selll</p>
-                      <p className="droprow-text">Buy, sell and use crypto</p>
-                    </Col>
-                  </Row>
-                  <Row className="droprow">
-                    <Col md={{ span: 2 }} className="dp-svg">
-                      <img src={dp7} height="40" width="40" alt="dp7 svg" />
-                    </Col>
-                    <Col md={{ span: 8 }}>
-                      <p className="droprow-header">Buy and selll</p>
-                      <p className="droprow-text">Buy, sell and use crypto</p>
-                    </Col>
-                  </Row>
-                </Col>
-                <Col md={{ span: 3 }}>
-                  <Row className="droprow">
-                    <Col md={{ span: 2 }} className="dp-svg">
-                      <img src={dp8} height="40" width="40" alt="dp8 svg" />
-                    </Col>
-                    <Col md={{ span: 8 }}>
-                      <p className="droprow-header">Buy and selll</p>
-                      <p className="droprow-text">Buy, sell and use crypto</p>
-                    </Col>
-                  </Row>
-                  <Row className="droprow">
-                    <Col md={{ span: 2 }} className="dp-svg">
-                      <img src={dp9} height="40" width="40" alt="dp9 svg" />
-                    </Col>
-                    <Col md={{ span: 8 }}>
-                      <p className="droprow-header">Buy and selll</p>
-                      <p className="droprow-text">Buy, sell and use crypto</p>
-                    </Col>
-                  </Row>
-                </Col>
-                <Col md={{ span: 3 }}>
-                  <Row>
-                    <p>Crypto tools for everyone</p>
-                    <p>
-                      Buy, sell, and spend crypto on the world's most trusted
-                      crypto exchange
-                    </p>
-                    <a href="##">See all products</a>
-                  </Row>
-                </Col>
-              </Row>
-            </Container>
-          </NavDropdown>
-          <NavDropdown title="Developers" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Another action
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Separated link
-            </NavDropdown.Item>
-          </NavDropdown>
-          <NavDropdown title="Company" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Another action
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Separated link
-            </NavDropdown.Item>
-          </NavDropdown>
-        </Nav>
-        <Nav className="navbar-right">
-          <Nav.Link>Sign In</Nav.Link>
-          <Nav.Link>
-            <Button variant="primary" size="sm">
-              Get Started
-            </Button>
-          </Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
-  );
-};
-export default Navi;
-=======
                       <p className="droprow-header">Crypto tools for everyone</p>
                       <p className="droprow-text2">Buy, sell, and spend crypto on the
                     world's most trusted crypto exchange</p>
-                      <a href="##" className="view-text">See all products</a>
+                      <a href="##" className="view-text" >See all products</a>
                     </Row>
                   </Col>
                 </Row>
@@ -250,12 +145,12 @@ export default Navi;
                       </Col>
                     </Row>
                   </Col>
-                  <Col md={{ span: 4 }}>
+                  <Col md={{ span: 3 }}>
                     <Row className="droprow">
                       <Col md={{ span: 2 }} className="dp-svg">
                         <img src={dp8} height="40" width="40" alt="dp8 svg" />
                       </Col>
-                      <Col md={{ span: 9 }}>
+                      <Col md={{ span: 10 }}>
                         <p className="droprow-header">Commerce</p>
                         <p className="droprow-text">Accept crypto from anyone</p>
                       </Col>
@@ -272,9 +167,9 @@ export default Navi;
                   </Col>
                   <Col md={{ span: 3 }}>
                   <Row>
-                      <p>Crypto tools for everyone</p>
-                      <p>Buy, sell, and spend crypto on the
-                    world's most trusted crypto exchange</p>
+                      <p className="droprow-header">Built for businesses and institutions</p>
+                      <p className="droprow-text2">Crypto solutions for institutional investors,
+                       family offices, and businesses</p>
                       <a href="##" className="view-text">See all products</a>
                     </Row>
                   </Col>
@@ -317,4 +212,3 @@ export default Navi;
     );
 }
 export default Navi
->>>>>>> 19054eb74628673ae474a69097eb1b3617c2181a
