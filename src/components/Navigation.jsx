@@ -13,7 +13,7 @@ const Navigation = () => {
         id="basic-navbar-nav"
         className="navbar-center nav-text2 nav-text1"
       >
-        <Nav className="navbar-center">
+        <Nav>
           <Nav.Link href="#home">
             <span className="nav-text1">Prices</span>
           </Nav.Link>

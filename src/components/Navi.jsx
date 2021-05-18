@@ -23,12 +23,20 @@ const Navi = () => {
   return (
     <Navbar bg="light-custom" expand="lg">
       <Navbar.Brand href="#home">
-        <img src={logo} alt="coinbase logo" width="112" height="20" />
+        <img
+          src={logo}
+          alt="coinbase logo"
+          width="112"
+          height="20"
+          className="coinbase-logo"
+        />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
-          <Nav.Link href="#home">Prices</Nav.Link>
+          <Nav.Link href="#home">
+            <span className="nav-text1">Prices</span>
+          </Nav.Link>
           <NavDropdown title="Learn" id="basic-nav-dropdown">
             <Container className="dropdown-container">
               <Row>
@@ -214,9 +222,11 @@ const Navi = () => {
           </NavDropdown>
         </Nav>
         <Nav className="navbar-right">
-          <Nav.Link>Sign In</Nav.Link>
           <Nav.Link>
-            <Button variant="primary" size="sm">
+            <span className="nav-text2">Sign in</span>
+          </Nav.Link>
+          <Nav.Link>
+            <Button variant="primary" size="sm" className="right-nav-btn">
               Get Started
             </Button>
           </Nav.Link>

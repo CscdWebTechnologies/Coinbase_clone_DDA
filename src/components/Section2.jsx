@@ -34,7 +34,7 @@ const Section2 = () => {
         <tbody>
           <tr className="bitcoin ">
             <td>
-              <h4 className="table-name2 l-pad ">1</h4>
+              <h4 className="table-name2">1</h4>
             </td>
             <td>
               <Container>
@@ -53,7 +53,7 @@ const Section2 = () => {
                         <Col md="3" className="zero-padding">
                           <h4 className="table-name1">Bitcoin</h4>
                         </Col>
-                        <Col md="2" className="zero-padding pad align display">
+                        <Col md="2" className="zero-padding">
                           <h4 className="table-name2">BTC</h4>
                         </Col>
                       </Row>
@@ -63,10 +63,10 @@ const Section2 = () => {
               </Container>
             </td>
             <td>
-              <h4 className="table-name1 l-pad1">GHS 333,490.67</h4>
+              <h4 className="table-name1">GHS 333,490.67</h4>
             </td>
             <td>
-              <h4 className="sec2-change l-pad1">-2.67%</h4>
+              <h4 className="sec2-change">-2.67%</h4>
             </td>
             <td>
               <svg
@@ -89,14 +89,14 @@ const Section2 = () => {
               </svg>
             </td>
             <td>
-              <Button variant="success" size="md" className="table-btn margin">
+              <Button variant="success" size="md" className="table-btn">
                 Buy
               </Button>
             </td>
           </tr>
           <tr className="ethereum">
             <td>
-              <h4 className="table-name2 l-pad">2</h4>
+              <h4 className="table-name2">2</h4>
             </td>
             <td>
               <Container>
@@ -108,11 +108,11 @@ const Section2 = () => {
                     <Container className="tableRowContainer">
                       <Row>
                         <Col md="4" className="zero-padding">
-                          <h4 className="table-name1 pad align display">
+                          <h4 className="table-name1">
                             Ethereum
                           </h4>
                         </Col>
-                        <Col md="2" className="zero-padding pad align display">
+                        <Col md="2" className="zero-padding">
                           <h4 className="table-name2">ETH</h4>
                         </Col>
                       </Row>
@@ -122,7 +122,7 @@ const Section2 = () => {
               </Container>
             </td>
             <td>
-              <h4 className="table-name1 l-pad1">GHS 22,563.03</h4>
+              <h4 className="table-name1">GHS 22,563.03</h4>
             </td>
             <td>
               <h4 className="sec2-change green">+4.04%</h4>
@@ -159,7 +159,7 @@ const Section2 = () => {
           </tr>
           <tr className="bitcoinCash">
             <td>
-              <h4 className="table-name2 l-pad">3</h4>
+              <h4 className="table-name2">3</h4>
             </td>
             <td>
               <Container>
@@ -188,10 +188,10 @@ const Section2 = () => {
               </Container>
             </td>
             <td>
-              <h4 className="table-name1 l-pad1">GHS 7,711.84</h4>
+              <h4 className="table-name1">GHS 7,711.84</h4>
             </td>
             <td>
-              <h4 className="sec2-change l-pad1">-0.96%</h4>
+              <h4 className="sec2-change">-0.96%</h4>
             </td>
             <td>
               <svg
@@ -223,7 +223,7 @@ const Section2 = () => {
           </tr>
           <tr className="litecoin">
             <td>
-              <h4 className="table-name2 l-pad">4</h4>
+              <h4 className="table-name2">4</h4>
             </td>
             <td>
               <Container>
@@ -252,10 +252,10 @@ const Section2 = () => {
               </Container>
             </td>
             <td>
-              <h4 className="table-name1 l-pad1">GHS 2,107.36</h4>
+              <h4 className="table-name1">GHS 2,107.36</h4>
             </td>
             <td>
-              <h4 className="sec2-change green l-pad1">+0.67%</h4>
+              <h4 className="sec2-change green">+0.67%</h4>
             </td>
             <td>
               <svg

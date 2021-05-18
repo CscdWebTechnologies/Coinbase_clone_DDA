@@ -33,13 +33,12 @@ const Section1 = () => {
             width="16"
             height="16"
             fill="#1652F0"
-            className="bi bi-arrow-right"
+            className="arrow-right"
             viewBox="0 0 16 16"
           >
             <path
               fill-rule="evenodd"
-              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5
-                 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+              d="M0 7h12.17l-3.28 3.28 1.41 1.41L16 6 10.3.31 8.89 1.72 12.17 5H0v2z"
             />
           </svg>
           <Jumbotron>
