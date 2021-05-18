@@ -712,6 +712,8 @@ svg.bitcoinBlue {
 .table-btn {
   border: 1px solid rgb(5, 177, 105);
   background-color: rgb(5, 177, 105);
+  margin-top: 12px;
+  margin-bottom: 14px;
 }
 
 .table-title {
@@ -767,7 +769,8 @@ svg.bitcoinBlue {
 .l-pad {
   padding-left: 25px;
   padding-top: 14px;
-  padding-bottom: 6px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .l-pad1 {

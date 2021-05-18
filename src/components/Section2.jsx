@@ -38,7 +38,7 @@ const Section2 = () => {
             </td>
             <td>
               <Container>
-                <Row className="">
+                <Row>
                   <Col md="2">
                     <img
                       src={bitcoin}
