@@ -11,29 +11,29 @@ const Section2 = () => {
       <Table hover size="md">
         <thead>
           <tr>
-            <th>
+            <th className="table-header">
               <label className="table-title hash">#</label>
             </th>
-            <th>
+            <th className="table-header">
               <label className="table-title">Name</label>
             </th>
-            <th>
+            <th className="table-header">
               <label className="table-title">Price</label>
             </th>
-            <th>
+            <th className="table-header">
               <label className="table-title">Change</label>
             </th>
-            <th>
+            <th className="table-header">
               <label className="table-title">Chart</label>
             </th>
-            <th>
+            <th className="table-header">
               <label className="table-title">Trade</label>
             </th>
           </tr>
         </thead>
         <tbody>
           <tr className="bitcoin ">
-            <td>
+            <td className="custom-tableData">
               <h4 className="table-name2">1</h4>
             </td>
             <td>
@@ -53,7 +53,7 @@ const Section2 = () => {
                         <Col md="3" className="zero-padding">
                           <h4 className="table-name1">Bitcoin</h4>
                         </Col>
-                        <Col md="2" className="zero-padding">
+                        <Col md="2" >
                           <h4 className="table-name2">BTC</h4>
                         </Col>
                       </Row>
@@ -112,7 +112,7 @@ const Section2 = () => {
                             Ethereum
                           </h4>
                         </Col>
-                        <Col md="2" className="zero-padding">
+                        <Col md="2">
                           <h4 className="table-name2">ETH</h4>
                         </Col>
                       </Row>
@@ -175,7 +175,7 @@ const Section2 = () => {
                   <Col md="10">
                     <Container className="tableRowContainer ">
                       <Row>
-                        <Col md="5" className="zero-padding">
+                        <Col md="6" className="zero-padding">
                           <h4 className="table-name1">Bitcoin Cash</h4>
                         </Col>
                         <Col md="2" className="zero-padding ">

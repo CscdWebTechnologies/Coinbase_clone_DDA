@@ -200,6 +200,14 @@
   font-size: 14px;
 }
 
+.table-title{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: rgba(17, 51, 83, 0.6);
+  transition: color 80ms ease-in-out 0s;
+}
+
 svg.chartSvg {
   display: block;
   fill: none;
@@ -722,8 +730,14 @@ svg.bitcoinBlue {
 .table-btn {
   border: 1px solid rgb(5, 177, 105);
   background-color: rgb(5, 177, 105);
-  margin-top: 12px;
-  margin-bottom: 14px;
+  
+}
+
+.table>:not(caption)>*>*{
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
 }
 
 .table-name1 {
@@ -735,6 +749,7 @@ svg.bitcoinBlue {
   font-size: 18px;
   font-weight: 400;
 }
+
 
 .table-name2 {
   font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -752,12 +767,13 @@ svg.bitcoinBlue {
   padding-top: 5px;
 }
 
-.zero-padding.col-md-3 {
-  padding-right: 0px;
-}
 
 .zero-padding.col-md-2 {
   padding-left: 0px;
+}
+
+.zero-padding.col-md-6{
+  padding-right: 0px;
 }
 
 /*Footer Styles*/

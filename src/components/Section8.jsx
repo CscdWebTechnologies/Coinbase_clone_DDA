@@ -6,7 +6,7 @@ const Section8 = () => {
   return (
     <Container fluid className="earth-container">
       <Row>
-        <Col sm={{ span: "3", offset: "1" }} xs={{ span: "2" }}>
+        <Col sm={{ span: "4", offset: "1" }} xs={{ span: "2" }}>
           <div className="earth-text-grid">
             <h2 className="earth-font display-text">
               Earn up to $28 worth of crypto
