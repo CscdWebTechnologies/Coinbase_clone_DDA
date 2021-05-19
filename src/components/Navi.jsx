@@ -34,8 +34,8 @@ const Navi = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
-          <Nav.Link href="#home">
-            <span className="nav-text1">Prices</span>
+          <Nav.Link href="#home" id="basic-nav-dropdown">
+            <span >Prices</span>
           </Nav.Link>
           <NavDropdown title="Learn" id="basic-nav-dropdown">
             <Container className="dropdown-container">
