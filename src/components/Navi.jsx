@@ -185,8 +185,8 @@ const Navi = () => {
                 </Col>
                 <Col md={{ span: 3 }}>
                   <Row>
-                    <p>Crypto tools for everyone</p>
-                    <p>
+                    <p className="droprow-header">Crypto tools for everyone</p>
+                    <p className="droprow-text2">
                       Buy, sell, and spend crypto on the world's most trusted
                       crypto exchange
                     </p>
